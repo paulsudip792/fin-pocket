@@ -1,11 +1,3136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Finance, Budgeting & Saving Tips | FinPocket</title>
+    <meta name="description" content="Manage your money smarter with FinPocket. Get practical tips on budgeting, saving, investing & financial planning for a secure future.">
+    <!-- Aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="canonical" href="https://www.finpocket.com/" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <!-- Swiper css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Swiper-cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/index-banner.css" />
+    <link rel="stylesheet" href="./css/download.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/expences.css">
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "Fin Pocket",
+  "url": "https://bikram8538.github.io/fin-pocket/index.html",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+    <!-- Organisation Schema  -->
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization", 
+  "name": "Fin Pocket",
+  "url": "https://bikram8538.github.io/fin-pocket/index.html",
+  "logo": "https://bikram8538.github.io/fin-pocket/assets/navbar/logo.svg",
+  "sameAs": [
+    "https://www.facebook.com/",
+    "https://www.twitter.com/",
+    "https://www.instagram.com/",
+    "https://www.youtube.com/",
+    "https://www.linkedin.com/"
+  ]
+}
+</script>
+
+
+
+<!-- Software Application Schema -->
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Fin Pocket",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Web",
+  "url": "https://bikram8538.github.io/fin-pocket/",
+  "description": "Fin Pocket is a smart financial tracking and budgeting web application that helps users manage expenses, track savings, and gain better control over their money.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "INR"
+  }
+}
+</script>
+
     
-</body>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="container">
+          <div class="radial-blur"></div>
+          <nav>
+            <a href="index.html" class="nav-logo">
+              <img src="./assets/navbar/logo.svg" alt="logo"
+            /></a>
+            <div class="nav-collapsed">
+              <ul class="nav-items">
+                <li class="nav-list">
+                  <a class="nav-links active" href="index.html">Home</a>
+                </li>
+                <li class="nav-list">
+                  <a class="nav-links" href="features.html">Features</a>
+                </li>
+                <li class="nav-list">
+                  <a class="nav-links" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-list">
+                  <a class="nav-links" href="about-us.html">About Us</a>
+                </li>
+                <li class="nav-list">
+                  <a class="nav-links" href="faq.html">FAQ</a>
+                </li>
+                <li class="nav-list">
+                  <a class="nav-links" href="contact.html">Contact</a>
+                </li>
+              </ul>
+
+              <ul class="nav-actions">
+                <li>
+
+                </li>
+                <li>
+                  <a href="https://bikram8538.github.io/dashboard-finpocket/profile.html">
+                    <svg
+                      class="nav-actions-svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M15 2.8125C11.7208 2.8125 9.0625 5.47081 9.0625 8.75C9.0625 12.0292 11.7208 14.6875 15 14.6875C18.2793 14.6875 20.9375 12.0292 20.9375 8.75C20.9375 5.47081 18.2793 2.8125 15 2.8125ZM10.9375 8.75C10.9375 6.50634 12.7564 4.6875 15 4.6875C17.2436 4.6875 19.0625 6.50634 19.0625 8.75C19.0625 10.9937 17.2436 12.8125 15 12.8125C12.7564 12.8125 10.9375 10.9937 10.9375 8.75Z"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M10.8948 16.5625C9.23386 16.5625 7.69693 17.4415 6.85468 18.873L6.02746 20.2791C5.37456 21.3888 5.0945 22.6847 5.36188 23.8497C5.64095 25.0656 6.5055 26.0564 7.92039 26.4219C11.8719 27.4428 18.1285 27.4428 22.08 26.4219C23.4949 26.0564 24.3595 25.0656 24.6385 23.8497C24.9059 22.6847 24.6259 21.3888 23.973 20.2791L23.1458 18.873C22.3035 17.4415 20.7665 16.5625 19.1056 16.5625H10.8948ZM8.47074 19.8239C8.97608 18.9649 9.89824 18.4375 10.8948 18.4375H19.1056C20.1021 18.4375 21.0244 18.9649 21.5296 19.8239L22.3569 21.2299C22.8219 22.0201 22.9493 22.8283 22.811 23.4304C22.6845 23.9815 22.3305 24.4206 21.611 24.6065C17.9671 25.5479 12.0332 25.5479 8.38938 24.6065C7.66991 24.4206 7.31586 23.9815 7.18936 23.4304C7.05118 22.8283 7.17859 22.0201 7.64351 21.2299L8.47074 19.8239Z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <button>
+                    <svg
+                      class="nav-actions-svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M14.9998 2.34375C10.3995 2.34375 6.56227 5.86684 6.56227 10.3332V11.6528C6.56227 12.9371 6.18212 14.1926 5.46974 15.2612C5.45717 15.28 5.4453 15.2994 5.43414 15.319L4.96084 16.1543C4.34819 17.2354 4.14857 18.5001 4.39319 19.7161C4.41149 19.8071 4.4412 19.934 4.4889 20.0872C5.06807 21.9478 6.87596 22.9045 8.36214 23.3521C8.74304 23.4667 9.14407 23.5699 9.56117 23.6614C9.5623 23.664 9.56342 23.6665 9.56457 23.669C10.7239 26.221 12.7867 27.6562 15 27.6562C17.2135 27.6562 19.2763 26.221 20.4355 23.669C20.4367 23.6664 20.4379 23.6639 20.439 23.6613C20.8584 23.5693 21.2615 23.4655 21.6444 23.35C23.15 22.8958 24.8863 21.9215 25.4898 20.1007C25.5125 20.0323 25.5314 19.9715 25.5458 19.925C25.5619 19.8726 25.569 19.8501 25.5739 19.8358C25.5873 19.797 25.598 19.7574 25.6062 19.7173C25.8525 18.5 25.651 17.2347 25.0387 16.1543L24.5654 15.319C24.5543 15.2994 24.5424 15.28 24.5298 15.2612C23.8174 14.1926 23.4373 12.9371 23.4373 11.6528V10.3332C23.4373 5.86684 19.6 2.34375 14.9998 2.34375ZM18.0649 24.0416C16.076 24.2569 13.9242 24.257 11.9352 24.0417C12.8217 25.2529 13.9574 25.7812 15 25.7812C16.0428 25.7812 17.1785 25.2527 18.0649 24.0416ZM8.43727 10.3332C8.43727 7.01015 11.3239 4.21875 14.9998 4.21875C18.6757 4.21875 21.5623 7.01015 21.5623 10.3332V11.6528C21.5623 13.2956 22.0452 14.9019 22.9504 16.2721L23.4074 17.0786C23.7885 17.7513 23.9194 18.5362 23.7782 19.2951L23.7579 19.36L23.7547 19.3705C23.7405 19.4161 23.7264 19.4615 23.7101 19.5107C23.3944 20.4631 22.3942 21.1654 21.1028 21.5549C17.6878 22.5853 12.3205 22.5859 8.90279 21.5567C7.58304 21.1593 6.57101 20.4675 6.27915 19.5299C6.25315 19.4464 6.23871 19.3829 6.23137 19.3464C6.07526 18.5704 6.20301 17.7654 6.59212 17.0786L7.04917 16.2721C7.95444 14.9019 8.43727 13.2956 8.43727 11.6528V10.3332Z"
+                      />
+                    </svg>
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="nav-right">
+              <a href="./login.html" class="btn btn-primary">Login</a>
+
+              <div class="nav-toggle">
+                <svg class="toggle-icon" viewBox="0 0 100 100">
+                  <rect
+                    class="line line1"
+                    x="20"
+                    y="20"
+                    width="70"
+                    height="10"
+                    rx="6"
+                  ></rect>
+                  <rect
+                    class="line line2"
+                    x="20"
+                    y="44"
+                    width="70"
+                    height="10"
+                    rx="6"
+                  ></rect>
+                  <rect
+                    class="line line3"
+                    x="20"
+                    y="68"
+                    width="70"
+                    height="10"
+                    rx="6"
+                  ></rect>
+                </svg>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="grid"></div>
+      <section class="banner">
+        <div class="grid"></div>
+        <div class="container">
+          <div class="banner-content">
+            <h1 data-aos="fade-down"data-aos-duration="1500">
+              Take Control of Your Money With <span>Smarter Budgeting</span>
+            </h1>
+            <p data-aos="fade-down"data-aos-duration="1500">
+              A simple, secure, and effective financial management system
+              designed for everyday users.
+            </p>
+            <div class="banner-btn">
+              <a
+                href="https://bikram8538.github.io/dashboard-finpocket/"
+                class="btn btn-primary" data-aos="fade-down-right"data-aos-duration="1500"
+                >Get Started</a
+              >
+              <a href="signup.html" class="btn btn-secondary" data-aos="fade-down-left"data-aos-duration="1500">Sign Up</a>
+            </div>
+          </div>
+          <div class="banner-image"data-aos="zoom-in"data-aos-duration="1500">
+              <figure>
+                <img src="./assets/banner/dashboard.svg" alt="Dashboard" />
+              </figure>
+          
+        </div>
+
+        <div class="client-band-wrapper">
+          <div class="clients" id="client-top">
+            <!-- 01 Slider main container -->
+            <div class="clients-swiper">
+              <!-- 02 Additional required wrapper -->
+              <div class="clients-wrapper">
+                <!-- 03 Slides -->
+
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/google-pay.png" alt="google-pay" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/phonepe.png" alt="phonepe" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/razorpay.png" alt="razorpay" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/hdfc.png" alt="hdfc" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/paytm.png" alt="paytm" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/paypal.png" alt="paypal" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/icici.png" alt="icici" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/bharat-pay.png" alt="bharat-pay" />
+                  </figure>
+                </div>
+
+                <!-- Duplicate -->
+
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/google-pay.png" alt="google-pay" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/phonepe.png" alt="phonepe" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/razorpay.png" alt="razorpay" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/hdfc.png" alt="hdfc" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/paytm.png" alt="paytm" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/paypal.png" alt="paypal" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/icici.png" alt="icici" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/bharat-pay.png" alt="bharat-pay" />
+                  </figure>
+                </div>
+
+                <!-- duplicate 03 -->
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/google-pay.png" alt="google-pay" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/phonepe.png" alt="phonepe" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/razorpay.png" alt="razorpay" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/hdfc.png" alt="hdfc" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/paytm.png" alt="paytm" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/paypal.png" alt="paypal" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/icici.png" alt="icici" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/bharat-pay.png" alt="bharat-pay" />
+                  </figure>
+                </div>
+
+                <!-- duplicate 04 -->
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/google-pay.png" alt="google-pay" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/phonepe.png" alt="phonepe" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/razorpay.png" alt="razorpay" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/hdfc.png" alt="hdfc" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/paytm.png" alt="paytm" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/paypal.png" alt="paypal" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/icici.png" alt="icici" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/bharat-pay.png" alt="bharat-pay" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clients" id="client-bottom">
+            <!-- 01 Slider main container -->
+            <div class="clients-swiper">
+              <!-- 02 Additional required wrapper -->
+              <div class="clients-wrapper">
+                <!-- 03 Slides -->
+
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/google-pay.png" alt="google-pay" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/phonepe.png" alt="phonepe" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/razorpay.png" alt="razorpay" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/hdfc.png" alt="hdfc" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/paytm.png" alt="paytm" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/paypal.png" alt="paypal" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/icici.png" alt="icici" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/bharat-pay.png" alt="bharat-pay" />
+                  </figure>
+                </div>
+
+                <!-- Duplicate -->
+
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/google-pay.png" alt="google-pay" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/phonepe.png" alt="phonepe" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/razorpay.png" alt="razorpay" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/hdfc.png" alt="hdfc" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/paytm.png" alt="paytm" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/paypal.png" alt="paypal" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/icici.png" alt="icici" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/bharat-pay.png" alt="bharat-pay" />
+                  </figure>
+                </div>
+
+                <!-- duplicate 03 -->
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/google-pay.png" alt="google-pay" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/phonepe.png" alt="phonepe" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/razorpay.png" alt="razorpay" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/hdfc.png" alt="hdfc" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/paytm.png" alt="paytm" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/paypal.png" alt="paypal" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/icici.png" alt="icici" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/bharat-pay.png" alt="bharat-pay" />
+                  </figure>
+                </div>
+
+                <!-- duplicate 04 -->
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/google-pay.png" alt="google-pay" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/phonepe.png" alt="phonepe" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/razorpay.png" alt="razorpay" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/hdfc.png" alt="hdfc" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/paytm.png" alt="paytm" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/paypal.png" alt="paypal" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/icici.png" alt="icici" />
+                  </figure>
+                </div>
+                <div class="client-slide">
+                  <figure class="clients-img">
+                    <img src="./assets/users/bharat-pay.png" alt="bharat-pay" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">  
+        <div class="radial-blur"></div>
+        <div class="container">
+          <div class="section-content">
+            <p class="section-badge"data-aos="fade-down"data-aos-duration="1500">Features</p>
+            <h2 class="sec-heading"data-aos="fade-down"data-aos-duration="1500">
+              <span>Smart Strategies</span> to Manage Your Money Better
+            </h2>
+            <p class="sec-description"data-aos="fade-down"data-aos-duration="1500">
+              Discover essential features and resources to help you save more
+              efficiently.
+            </p>
+          </div>
+
+          <div class="features-grid">
+            <!-- LEFT SIDE -->
+            <div class="features-left">
+              <!-- Left small column -->
+              <div class="left-stack">
+                <div class="card glass top-card"data-aos="flip-left">
+                  <div>
+                    <span>Available for</span>
+                    <strong>Android / iOS</strong>
+                  </div>
+                  <a class="btn btn-primary">Try Now</a>
+                </div>
+
+                <div class="card glass center-card"data-aos="flip-right">
+                  <figure class="goal-tracking-img">
+                    <img
+                      src="./assets/features/mobile-phone-screen-product.png"
+                    />
+                  </figure>
+                  <h3>Goal Tracking</h3>
+                </div>
+
+                <div class="card glass bottom-card"data-aos="flip-left">
+                  <figure class="icon-lock">
+                    <img src="./assets/features/lock.svg" alt="lock" />
+                  </figure>
+
+                  <h3>Savings Protection</h3>
+                  <p>
+                    Set lock into your savings and get reward up to ₹100 after
+                    14 days
+                  </p>
+                </div>
+              </div>
+
+              <!-- Left big column -->
+              <div class="left-main card glass"data-aos="flip-right">
+                <!-- Transaction card -->
+                <div class="left-main-top glass"data-aos="flip-left">
+                  <div class="transaction">
+                    <figure class="transaction-icon">
+                      <img
+                        src="./assets/features/transaction.svg"
+                        alt="transaction"
+                      />
+                    </figure>
+                    <h3>₹500</h3>
+                    <small>Congratulation</small>
+                    <small>25 Nov 2025, 2:14 PM</small>
+                  </div>
+
+                  <div class="transaction-info"data-aos="flip-right">
+                    <div class="transaction-info-left">
+                      <strong>To</strong>
+                      <strong>UPI transaction ID</strong>
+                    </div>
+                    <div class="transaction-info-right">
+                      <small>finpocket@support</small>
+                      <small>532754018875</small>
+                    </div>
+                  </div>
+
+                  <div class="transaction-status glass">
+                    <figure class="check">
+                      <img src="./assets/features/check.svg" alt="check" />
+                    </figure>
+                    <div>
+                      <strong>Done</strong>
+                      <small>Autopay set successfully</small>
+                    </div>
+                    <figure class="check">
+                      <img src="./assets/features/x.svg" alt="check" />
+                    </figure>
+                  </div>
+                </div>
+                <div class="secure"data-aos="flip-left">
+                  <h3>Secure & Private</h3>
+                  <p>Your data is protected with industry-standard security.</p>
+                </div>
+              </div>
+
+              <!-- Savings -->
+              <div class="savings card glass"data-aos="flip-left">
+                <figure class="spending-img">
+                  <img
+                    src="./assets/features/total-spending.svg"
+                    alt="Total Spending"
+                  />
+                </figure>
+                <h3>Total Spending</h3>
+                <strong>₹19,500</strong>
+
+                <div class="savings-grid"data-aos="flip-right">
+                  <div class="pill glass saving">
+                    <strong>Saving</strong><span>5.4K</span><span>+13.4%</span>
+                  </div>
+                  <div class="pill glass spending">
+                    <strong>Expenses</strong><span>2.1K</span><span>-1.4%</span>
+                  </div>
+                  <div class="pill glass investment">
+                    <strong>Investment</strong><span>1.1K</span
+                    ><span>-1.4%</span>
+                  </div>
+                  <div class="pill glass bills">
+                    <strong>Bills</strong><span>2.1K</span><span>+11.4%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="features-right"data-aos="flip-right">
+              <div class="card glass chart">
+                <figure class="chart-img">
+                  <img src="./assets/features/chart-graph.svg" />
+                </figure>
+                <ul class="chart-info">
+                  <li>Investment</li>
+                  <li>Expenses</li>
+                  <li>Savings</li>
+                </ul>
+              </div>
+
+              <div class="card glass phone"data-aos="flip-left">
+                <figure class="phone-img">
+                  <img src="./assets/features/phone-preview.svg" />
+                </figure>
+                <h3>Manage all cards in one place</h3>
+                <p>
+                  Log your daily spending quickly and categorize it for better
+                  clarity.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-it-works">
+        <div class="radial-blur"></div>
+        <div class="container">
+          <div class="section-content">
+            <p class="section-badge"data-aos="fade-down"data-aos-duration="1500">How it works</p>
+            <h2 class="sec-heading"data-aos="fade-down"data-aos-duration="1500">
+              From download to <span>daily use</span> in minutes
+            </h2>
+          </div>
+
+          <div class="daily-use-wrapper">
+            <div class="row">
+              <div class="col-md-12 col-lg-10 col-4"data-aos="flip-right">
+                <div class="left glass">
+                  <div class="left-wrapper">
+                    <div class="signup-wrapper">
+                      <form action="">
+                        <div class="input-box glass">
+                          <figure>
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M12 2.25C9.37665 2.25 7.25 4.37665 7.25 7C7.25 9.62335 9.37665 11.75 12 11.75C14.6234 11.75 16.75 9.62335 16.75 7C16.75 4.37665 14.6234 2.25 12 2.25ZM8.75 7C8.75 5.20507 10.2051 3.75 12 3.75C13.7949 3.75 15.25 5.20507 15.25 7C15.25 8.79493 13.7949 10.25 12 10.25C10.2051 10.25 8.75 8.79493 8.75 7Z"
+                              />
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M8.71585 13.25C7.38709 13.25 6.15754 13.9532 5.48374 15.0984L4.82197 16.2233C4.29965 17.111 4.0756 18.1478 4.2895 19.0798C4.51276 20.0525 5.2044 20.8451 6.33631 21.1375C9.49748 21.9542 14.5028 21.9542 17.664 21.1375C18.7959 20.8451 19.4876 20.0525 19.7108 19.0798C19.9247 18.1478 19.7007 17.111 19.1784 16.2233L18.5166 15.0984C17.8428 13.9532 16.6132 13.25 15.2845 13.25H8.71585ZM6.77659 15.8591C7.18086 15.1719 7.91859 14.75 8.71585 14.75H15.2845C16.0817 14.75 16.8195 15.1719 17.2237 15.8591L17.8855 16.9839C18.2575 17.6161 18.3594 18.2626 18.2488 18.7443C18.1476 19.1852 17.8644 19.5365 17.2888 19.6852C14.3737 20.4383 9.62658 20.4383 6.7115 19.6852C6.13593 19.5365 5.85269 19.1852 5.75149 18.7443C5.64094 18.2626 5.74287 17.6161 6.11481 16.9839L6.77659 15.8591Z"
+                              />
+                            </svg>
+                          </figure>
+                          <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Your name"
+                          />
+                        </div>
+                        <div class="input-box glass">
+                          <figure>
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7.38598 8.35699C7.0308 8.14388 6.5701 8.25905 6.35699 8.61423C6.14388 8.96942 6.25905 9.43012 6.61424 9.64323L10.0707 11.7171C11.2583 12.4297 12.7419 12.4297 13.9294 11.7171L17.386 9.64323C17.7411 9.43012 17.8563 8.96942 17.6432 8.61423C17.4301 8.25905 16.9694 8.14388 16.6142 8.35699L13.1577 10.4309C12.4452 10.8584 11.555 10.8584 10.8425 10.4309L7.38598 8.35699Z"
+                              />
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M5.5 2.75C3.15279 2.75 1.25 4.65279 1.25 7V17C1.25 19.3472 3.15279 21.25 5.5 21.25H18.5C20.8472 21.25 22.75 19.3472 22.75 17V7C22.75 4.65279 20.8472 2.75 18.5 2.75H5.5ZM2.75 7C2.75 5.48122 3.98122 4.25 5.5 4.25H18.5C20.0188 4.25 21.25 5.48122 21.25 7V17C21.25 18.5188 20.0188 19.75 18.5 19.75H5.5C3.98122 19.75 2.75 18.5188 2.75 17V7Z"
+                              />
+                            </svg>
+                          </figure>
+                          <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Email address"
+                          />
+                        </div>
+                        <div class="input-box glass">
+                          <figure>
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M12 12.75C12.4142 12.75 12.75 13.0858 12.75 13.5V16.5C12.75 16.9142 12.4142 17.25 12 17.25C11.5858 17.25 11.25 16.9142 11.25 16.5V13.5C11.25 13.0858 11.5858 12.75 12 12.75Z"
+                              />
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M12 1.25C9.37665 1.25 7.25 3.37665 7.25 6V8.87582C5.4246 10.2937 4.25 12.5097 4.25 15C4.25 19.2802 7.71979 22.75 12 22.75C16.2802 22.75 19.75 19.2802 19.75 15C19.75 12.5097 18.5754 10.2937 16.75 8.87582V6C16.75 3.37665 14.6234 1.25 12 1.25ZM15.25 7.96232V6C15.25 4.20507 13.7949 2.75 12 2.75C10.2051 2.75 8.75 4.20507 8.75 6V7.96232C9.7384 7.50511 10.8394 7.25 12 7.25C13.1606 7.25 14.2616 7.50511 15.25 7.96232ZM12 8.75C8.54822 8.75 5.75 11.5482 5.75 15C5.75 18.4518 8.54822 21.25 12 21.25C15.4518 21.25 18.25 18.4518 18.25 15C18.25 11.5482 15.4518 8.75 12 8.75Z"
+                              />
+                            </svg>
+                          </figure>
+                          <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            placeholder="Password"
+                          />
+                        </div>
+                        <div class="input-box glass">
+                          <figure>
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M12 12.75C12.4142 12.75 12.75 13.0858 12.75 13.5V16.5C12.75 16.9142 12.4142 17.25 12 17.25C11.5858 17.25 11.25 16.9142 11.25 16.5V13.5C11.25 13.0858 11.5858 12.75 12 12.75Z"
+                              />
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M12 1.25C9.37665 1.25 7.25 3.37665 7.25 6V8.87582C5.4246 10.2937 4.25 12.5097 4.25 15C4.25 19.2802 7.71979 22.75 12 22.75C16.2802 22.75 19.75 19.2802 19.75 15C19.75 12.5097 18.5754 10.2937 16.75 8.87582V6C16.75 3.37665 14.6234 1.25 12 1.25ZM15.25 7.96232V6C15.25 4.20507 13.7949 2.75 12 2.75C10.2051 2.75 8.75 4.20507 8.75 6V7.96232C9.7384 7.50511 10.8394 7.25 12 7.25C13.1606 7.25 14.2616 7.50511 15.25 7.96232ZM12 8.75C8.54822 8.75 5.75 11.5482 5.75 15C5.75 18.4518 8.54822 21.25 12 21.25C15.4518 21.25 18.25 18.4518 18.25 15C18.25 11.5482 15.4518 8.75 12 8.75Z"
+                              />
+                            </svg>
+                          </figure>
+                          <input
+                            type="password"
+                            name="retype-password"
+                            id="retype-password"
+                            placeholder="Retype Password"
+                          />
+                        </div>
+                        <div class="submit-btn-wrapper">
+                          <input
+                            type="submit"
+                            value="Sign Up"
+                            class="btn btn-primary"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                    <div class="daily-use-content">
+                      <h3>Sign up with Fin Pocket</h3>
+                      <p>
+                        Sign up in seconds and personalize your preferred
+                        currency and categories.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-10 col-4"data-aos="flip-left">
+                <div class="mid glass">
+                  <div class="mid-wrapper">
+                    <div class="mid-wrapper-inner">
+                      <div class="users">
+                        <figure>
+                          <svg
+                            width="50"
+                            height="50"
+                            viewBox="0 0 50 50"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M15.625 20.3125C15.625 15.1348 19.8223 10.9375 25 10.9375C30.1777 10.9375 34.375 15.1348 34.375 20.3125C34.375 25.4902 30.1777 29.6875 25 29.6875C19.8223 29.6875 15.625 25.4902 15.625 20.3125ZM25 14.0625C21.5481 14.0625 18.75 16.8607 18.75 20.3125C18.75 23.7644 21.5481 26.5625 25 26.5625C28.4519 26.5625 31.25 23.7644 31.25 20.3125C31.25 16.8607 28.4519 14.0625 25 14.0625Z"
+                              fill="#FFFFFF"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M2.60425 25.0001C2.60425 12.6312 12.6312 2.60425 25.0001 2.60425C37.369 2.60425 47.3959 12.6312 47.3959 25.0001C47.3959 37.369 37.369 47.3959 25.0001 47.3959C12.6312 47.3959 2.60425 37.369 2.60425 25.0001ZM25.0001 5.72925C14.3571 5.72925 5.72925 14.3571 5.72925 25.0001C5.72925 30.102 7.71183 34.7407 10.9486 38.188L12.0754 36.2728C13.4791 33.887 16.0407 32.422 18.8089 32.422H31.1915C33.9597 32.422 36.5213 33.887 37.9251 36.2728L39.0518 38.188C42.2884 34.7405 44.2709 30.102 44.2709 25.0001C44.2709 14.3571 35.643 5.72925 25.0001 5.72925ZM36.684 40.3261L35.2315 37.8576C34.3895 36.4259 32.8524 35.547 31.1915 35.547H18.8089C17.148 35.547 15.611 36.4259 14.7688 37.8576L13.3163 40.3263C16.5576 42.8011 20.6072 44.2709 25.0001 44.2709C29.393 44.2709 33.4428 42.8009 36.684 40.3261Z"
+                              fill="#FFFFFF"
+                            />
+                          </svg>
+                        </figure>
+                        <figure>
+                          <svg
+                            width="50"
+                            height="50"
+                            viewBox="0 0 50 50"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M15.625 20.3125C15.625 15.1348 19.8223 10.9375 25 10.9375C30.1777 10.9375 34.375 15.1348 34.375 20.3125C34.375 25.4902 30.1777 29.6875 25 29.6875C19.8223 29.6875 15.625 25.4902 15.625 20.3125ZM25 14.0625C21.5481 14.0625 18.75 16.8607 18.75 20.3125C18.75 23.7644 21.5481 26.5625 25 26.5625C28.4519 26.5625 31.25 23.7644 31.25 20.3125C31.25 16.8607 28.4519 14.0625 25 14.0625Z"
+                              fill="#FFFFFF"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M2.60425 25.0001C2.60425 12.6312 12.6312 2.60425 25.0001 2.60425C37.369 2.60425 47.3959 12.6312 47.3959 25.0001C47.3959 37.369 37.369 47.3959 25.0001 47.3959C12.6312 47.3959 2.60425 37.369 2.60425 25.0001ZM25.0001 5.72925C14.3571 5.72925 5.72925 14.3571 5.72925 25.0001C5.72925 30.102 7.71183 34.7407 10.9486 38.188L12.0754 36.2728C13.4791 33.887 16.0407 32.422 18.8089 32.422H31.1915C33.9597 32.422 36.5213 33.887 37.9251 36.2728L39.0518 38.188C42.2884 34.7405 44.2709 30.102 44.2709 25.0001C44.2709 14.3571 35.643 5.72925 25.0001 5.72925ZM36.684 40.3261L35.2315 37.8576C34.3895 36.4259 32.8524 35.547 31.1915 35.547H18.8089C17.148 35.547 15.611 36.4259 14.7688 37.8576L13.3163 40.3263C16.5576 42.8011 20.6072 44.2709 25.0001 44.2709C29.393 44.2709 33.4428 42.8009 36.684 40.3261Z"
+                              fill="#FFFFFF"
+                            />
+                          </svg>
+                        </figure>
+                        <figure>
+                          <svg
+                            width="50"
+                            height="50"
+                            viewBox="0 0 50 50"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M15.625 20.3125C15.625 15.1348 19.8223 10.9375 25 10.9375C30.1777 10.9375 34.375 15.1348 34.375 20.3125C34.375 25.4902 30.1777 29.6875 25 29.6875C19.8223 29.6875 15.625 25.4902 15.625 20.3125ZM25 14.0625C21.5481 14.0625 18.75 16.8607 18.75 20.3125C18.75 23.7644 21.5481 26.5625 25 26.5625C28.4519 26.5625 31.25 23.7644 31.25 20.3125C31.25 16.8607 28.4519 14.0625 25 14.0625Z"
+                              fill="#FFFFFF"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M2.60425 25.0001C2.60425 12.6312 12.6312 2.60425 25.0001 2.60425C37.369 2.60425 47.3959 12.6312 47.3959 25.0001C47.3959 37.369 37.369 47.3959 25.0001 47.3959C12.6312 47.3959 2.60425 37.369 2.60425 25.0001ZM25.0001 5.72925C14.3571 5.72925 5.72925 14.3571 5.72925 25.0001C5.72925 30.102 7.71183 34.7407 10.9486 38.188L12.0754 36.2728C13.4791 33.887 16.0407 32.422 18.8089 32.422H31.1915C33.9597 32.422 36.5213 33.887 37.9251 36.2728L39.0518 38.188C42.2884 34.7405 44.2709 30.102 44.2709 25.0001C44.2709 14.3571 35.643 5.72925 25.0001 5.72925ZM36.684 40.3261L35.2315 37.8576C34.3895 36.4259 32.8524 35.547 31.1915 35.547H18.8089C17.148 35.547 15.611 36.4259 14.7688 37.8576L13.3163 40.3263C16.5576 42.8011 20.6072 44.2709 25.0001 44.2709C29.393 44.2709 33.4428 42.8009 36.684 40.3261Z"
+                              fill="#FFFFFF"
+                            />
+                          </svg>
+                        </figure>
+                        <figure>
+                          <svg
+                            width="50"
+                            height="50"
+                            viewBox="0 0 50 50"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M15.625 20.3125C15.625 15.1348 19.8223 10.9375 25 10.9375C30.1777 10.9375 34.375 15.1348 34.375 20.3125C34.375 25.4902 30.1777 29.6875 25 29.6875C19.8223 29.6875 15.625 25.4902 15.625 20.3125ZM25 14.0625C21.5481 14.0625 18.75 16.8607 18.75 20.3125C18.75 23.7644 21.5481 26.5625 25 26.5625C28.4519 26.5625 31.25 23.7644 31.25 20.3125C31.25 16.8607 28.4519 14.0625 25 14.0625Z"
+                              fill="#FFFFFF"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M2.60425 25.0001C2.60425 12.6312 12.6312 2.60425 25.0001 2.60425C37.369 2.60425 47.3959 12.6312 47.3959 25.0001C47.3959 37.369 37.369 47.3959 25.0001 47.3959C12.6312 47.3959 2.60425 37.369 2.60425 25.0001ZM25.0001 5.72925C14.3571 5.72925 5.72925 14.3571 5.72925 25.0001C5.72925 30.102 7.71183 34.7407 10.9486 38.188L12.0754 36.2728C13.4791 33.887 16.0407 32.422 18.8089 32.422H31.1915C33.9597 32.422 36.5213 33.887 37.9251 36.2728L39.0518 38.188C42.2884 34.7405 44.2709 30.102 44.2709 25.0001C44.2709 14.3571 35.643 5.72925 25.0001 5.72925ZM36.684 40.3261L35.2315 37.8576C34.3895 36.4259 32.8524 35.547 31.1915 35.547H18.8089C17.148 35.547 15.611 36.4259 14.7688 37.8576L13.3163 40.3263C16.5576 42.8011 20.6072 44.2709 25.0001 44.2709C29.393 44.2709 33.4428 42.8009 36.684 40.3261Z"
+                              fill="#FFFFFF"
+                            />
+                          </svg>
+                        </figure>
+                      </div>
+                      <div class="lines">
+                        <figure>
+                          <img
+                            src="./assets/how-it-works/lines.svg"
+                            alt="lines"
+                          />
+                        </figure>
+                      </div>
+                      <div class="mid-logo">
+                        <figure>
+                          <img
+                            src="./assets/how-it-works/logo.svg"
+                            alt="logo"
+                          />
+                        </figure>
+                      </div>
+                      <h3>Integrate your accounts</h3>
+                    </div>
+                  </div>
+                  <div class="daily-use-content">
+                    <p>
+                      Connect all your platforms to start seeing the analytics.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-10 col-4"data-aos="flip-right">
+                <div class="right glass">
+                  <div class="right-wrapper">
+                    <div class="buddget-wrapper">
+                      <form action="">
+                        <div class="input-box glass">
+                          <figure>
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M12 2.25C9.37665 2.25 7.25 4.37665 7.25 7C7.25 9.62335 9.37665 11.75 12 11.75C14.6234 11.75 16.75 9.62335 16.75 7C16.75 4.37665 14.6234 2.25 12 2.25ZM8.75 7C8.75 5.20507 10.2051 3.75 12 3.75C13.7949 3.75 15.25 5.20507 15.25 7C15.25 8.79493 13.7949 10.25 12 10.25C10.2051 10.25 8.75 8.79493 8.75 7Z"
+                                fill="#C1FF77"
+                                fill-opacity="1"
+                              />
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M8.71585 13.25C7.38709 13.25 6.15754 13.9532 5.48374 15.0984L4.82197 16.2233C4.29965 17.111 4.0756 18.1478 4.2895 19.0798C4.51276 20.0525 5.2044 20.8451 6.33631 21.1375C9.49748 21.9542 14.5028 21.9542 17.664 21.1375C18.7959 20.8451 19.4876 20.0525 19.7108 19.0798C19.9247 18.1478 19.7007 17.111 19.1784 16.2233L18.5166 15.0984C17.8428 13.9532 16.6132 13.25 15.2845 13.25H8.71585ZM6.77659 15.8591C7.18086 15.1719 7.91859 14.75 8.71585 14.75H15.2845C16.0817 14.75 16.8195 15.1719 17.2237 15.8591L17.8855 16.9839C18.2575 17.6161 18.3594 18.2626 18.2488 18.7443C18.1476 19.1852 17.8644 19.5365 17.2888 19.6852C14.3737 20.4383 9.62658 20.4383 6.7115 19.6852C6.13593 19.5365 5.85269 19.1852 5.75149 18.7443C5.64094 18.2626 5.74287 17.6161 6.11481 16.9839L6.77659 15.8591Z"
+                                fill="#C1FF77"
+                                fill-opacity="1"
+                              />
+                            </svg>
+                          </figure>
+                          <input
+                            type="number"
+                            name="expenses"
+                            id="expenses"
+                            placeholder="Monthly Expenses"
+                          />
+                        </div>
+                        <div class="input-box glass">
+                          <figure>
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M15.1104 8.93599C15.3512 8.59893 15.273 8.13052 14.9359 7.88976C14.5989 7.649 14.1305 7.72707 13.8898 8.06413L8.88976 15.0642C8.649 15.4012 8.72707 15.8696 9.06413 16.1104C9.40119 16.3512 9.8696 16.2731 10.1103 15.936L15.1104 8.93599Z"
+                                fill="#C1FF77"
+                              />
+                              <path
+                                d="M14.25 15C14.25 14.5858 14.5858 14.25 15 14.25H15.01C15.4242 14.25 15.76 14.5858 15.76 15C15.76 15.4142 15.4242 15.75 15.01 15.75H15C14.5858 15.75 14.25 15.4142 14.25 15Z"
+                                fill="#C1FF77"
+                              />
+                              <path
+                                d="M9 8.25C8.58578 8.25 8.25 8.58579 8.25 9C8.25 9.41421 8.58578 9.75 9 9.75H9.01C9.42421 9.75 9.76 9.41421 9.76 9C9.76 8.58579 9.42421 8.25 9.01 8.25H9Z"
+                                fill="#C1FF77"
+                              />
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M13.8448 1.9953C12.8176 1.00157 11.1874 1.00157 10.1602 1.9953L9.49252 2.64118C9.23764 2.88774 8.88324 3.00289 8.53211 2.95323L7.61234 2.82313C6.19721 2.62297 4.87833 3.58119 4.63139 4.98892L4.4709 5.90387C4.40963 6.25316 4.1906 6.55463 3.87734 6.72084L3.05676 7.15622C1.79424 7.82608 1.29047 9.37651 1.91814 10.6605L2.32609 11.4951C2.48183 11.8137 2.48183 12.1863 2.32609 12.5049L1.91814 13.3395C1.29047 14.6235 1.79424 16.1739 3.05676 16.8438L3.87734 17.2792C4.1906 17.4454 4.40963 17.7468 4.4709 18.0961L4.63139 19.0111C4.87833 20.4188 6.19721 21.377 7.61234 21.1769L8.53211 21.0468C8.88324 20.9971 9.23764 21.1123 9.49252 21.3588L10.1602 22.0047C11.1874 22.9984 12.8176 22.9984 13.8448 22.0047L14.5125 21.3588C14.7673 21.1123 15.1217 20.9971 15.4729 21.0468L16.3926 21.1769C17.8078 21.377 19.1267 20.4188 19.3736 19.0111L19.5341 18.0961C19.5954 17.7468 19.8144 17.4454 20.1277 17.2792L20.9482 16.8438C22.2108 16.1739 22.7145 14.6235 22.0869 13.3395L21.6789 12.5049C21.5232 12.1863 21.5232 11.8137 21.6789 11.4951L22.0869 10.6605C22.7145 9.37651 22.2108 7.82608 20.9482 7.15622L20.1277 6.72084C19.8144 6.55463 19.5954 6.25316 19.5341 5.90387L19.3736 4.98892C19.1267 3.58119 17.8078 2.62297 16.3926 2.82313L15.4729 2.95323C15.1217 3.00289 14.7673 2.88774 14.5125 2.64118L13.8448 1.9953ZM11.2031 3.07338C11.6488 2.64221 12.3562 2.64221 12.8019 3.07338L13.4695 3.71926C14.0569 4.28752 14.8737 4.55291 15.683 4.43845L16.6027 4.30835C17.2167 4.2215 17.789 4.63727 17.8962 5.24808L18.0566 6.16304C18.1979 6.96804 18.7027 7.66283 19.4246 8.04589L20.2452 8.48126C20.793 8.77192 21.0116 9.44465 20.7392 10.0018L20.3313 10.8363C19.9724 11.5706 19.9724 12.4294 20.3313 13.1637L20.7392 13.9982C21.0116 14.5554 20.793 15.2281 20.2452 15.5187L19.4246 15.9541C18.7027 16.3372 18.1979 17.032 18.0566 17.837L17.8962 18.7519C17.789 19.3627 17.2167 19.7785 16.6027 19.6917L15.683 19.5616C14.8737 19.4471 14.0569 19.7125 13.4695 20.2807L12.8019 20.9266C12.3562 21.3578 11.6488 21.3578 11.2031 20.9266L10.5355 20.2807C9.94805 19.7125 9.13128 19.4471 8.32204 19.5616L7.40227 19.6917C6.78824 19.7785 6.21598 19.3627 6.10884 18.7519L5.94834 17.837C5.80713 17.032 5.30234 16.3372 4.58037 15.9541L3.75979 15.5187C3.21199 15.2281 2.9934 14.5554 3.26575 13.9982L3.6737 13.1637C4.03263 12.4294 4.03263 11.5706 3.6737 10.8363L3.26575 10.0018C2.9934 9.44465 3.21199 8.77192 3.75979 8.48126L4.58037 8.04589C5.30234 7.66283 5.80713 6.96804 5.94834 6.16304L6.10884 5.24808C6.21598 4.63727 6.78824 4.2215 7.40227 4.30835L8.32204 4.43845C9.13128 4.55291 9.94805 4.28752 10.5355 3.71926L11.2031 3.07338Z"
+                                fill="#C1FF77"
+                              />
+                            </svg>
+                          </figure>
+                          <input
+                            type="number"
+                            name="investment"
+                            id="investment"
+                            placeholder="Monthly Investments"
+                          />
+                        </div>
+                        <div class="input-box glass">
+                          <figure>
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7.25 9C7.25 8.58579 7.58578 8.25 8 8.25H8.25C8.66421 8.25 9 8.58579 9 9C9 9.41421 8.66421 9.75 8.25 9.75H8C7.58578 9.75 7.25 9.41421 7.25 9Z"
+                                fill="#B8FB6A"
+                              />
+                              <path
+                                d="M8 12.25C7.58578 12.25 7.25 12.5858 7.25 13C7.25 13.4142 7.58578 13.75 8 13.75H8.25C8.66421 13.75 9 13.4142 9 13C9 12.5858 8.66421 12.25 8.25 12.25H8Z"
+                                fill="#B8FB6A"
+                              />
+                              <path
+                                d="M11.25 9C11.25 8.58579 11.5858 8.25 12 8.25H12.25C12.6642 8.25 13 8.58579 13 9C13 9.41421 12.6642 9.75 12.25 9.75H12C11.5858 9.75 11.25 9.41421 11.25 9Z"
+                                fill="#B8FB6A"
+                              />
+                              <path
+                                d="M12 12.25C11.5858 12.25 11.25 12.5858 11.25 13C11.25 13.4142 11.5858 13.75 12 13.75H12.25C12.6642 13.75 13 13.4142 13 13C13 12.5858 12.6642 12.25 12.25 12.25H12Z"
+                                fill="#B8FB6A"
+                              />
+                              <path
+                                d="M15.25 9C15.25 8.58579 15.5858 8.25 16 8.25H16.25C16.6642 8.25 17 8.58579 17 9C17 9.41421 16.6642 9.75 16.25 9.75H16C15.5858 9.75 15.25 9.41421 15.25 9Z"
+                                fill="#B8FB6A"
+                              />
+                              <path
+                                d="M16 12.25C15.5858 12.25 15.25 12.5858 15.25 13C15.25 13.4142 15.5858 13.75 16 13.75H16.25C16.6642 13.75 17 13.4142 17 13C17 12.5858 16.6642 12.25 16.25 12.25H16Z"
+                                fill="#B8FB6A"
+                              />
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M9.75002 3C9.75002 2.58579 9.41423 2.25 9.00002 2.25C8.5858 2.25 8.25002 2.58579 8.25002 3V3.25049H6.98193C4.63472 3.25049 2.73193 5.15328 2.73193 7.50049V9.50248L2.73204 9.51569C2.7753 11.9708 2.59894 13.1951 2.40461 13.9018C2.30939 14.2481 2.20622 14.4837 2.10381 14.7022C2.09099 14.7296 2.07752 14.758 2.0636 14.7872C1.9707 14.9827 1.85733 15.2213 1.77918 15.4976C1.61974 16.0613 1.59749 16.5867 1.73609 17.0588C1.87712 17.5392 2.16589 17.8997 2.51361 18.1548C2.59388 18.2137 2.67732 18.2671 2.7631 18.3155C2.92331 20.2389 4.53519 21.75 6.50002 21.75H18C20.3472 21.75 22.25 19.8472 22.25 17.5V12.8948C22.2554 12.717 22.2562 12.5353 22.2522 12.35V7.50049C22.2522 5.15328 20.3494 3.25049 18.0022 3.25049H16.75V3C16.75 2.58579 16.4142 2.25 16 2.25C15.5858 2.25 15.25 2.58579 15.25 3V3.25049H9.75002V3ZM8.25002 4.75049V5C8.25002 5.41421 8.5858 5.75 9.00002 5.75C9.41423 5.75 9.75002 5.41421 9.75002 5V4.75049H15.25V5C15.25 5.41421 15.5858 5.75 16 5.75C16.4142 5.75 16.75 5.41421 16.75 5V4.75049H18.0022C19.521 4.75049 20.7522 5.98171 20.7522 7.50049V12H20.75V12.8738C20.6996 14.4062 20.2502 15.4624 19.6508 16.141C18.9905 16.8885 18.0862 17.25 17.12 17.25H4.67657C4.1537 17.25 3.67343 17.1454 3.40106 16.9455C3.28346 16.8592 3.21215 16.7616 3.17535 16.6363C3.13612 16.5027 3.11829 16.2745 3.22257 15.9058C3.26419 15.7586 3.31948 15.6414 3.41469 15.4395L3.46206 15.3388C3.58317 15.0804 3.72443 14.7595 3.85092 14.2995C4.09979 13.3945 4.27585 12.0088 4.23193 9.4959V7.50049C4.23193 5.98171 5.46314 4.75049 6.98193 4.75049H8.25002ZM20.75 17.5V17.1622C19.7796 18.244 18.461 18.75 17.12 18.75H4.67657C4.58096 18.75 4.47994 18.7474 4.37504 18.7414C4.68149 19.6198 5.51716 20.25 6.50002 20.25H18C19.5188 20.25 20.75 19.0188 20.75 17.5Z"
+                                fill="#B8FB6A"
+                              />
+                            </svg>
+                          </figure>
+                          <input
+                            type="number"
+                            name="budget"
+                            id="budget"
+                            placeholder="Monthly Budget"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                    <div class="daily-use-content">
+                      <h3>Monitor everything</h3>
+                      <p>
+                        Nothing else! you’re all done. now enjoy Fin Pocket on
+                        your own.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="radial-blur"></div>
+        <div class="container">
+          <div class="section-content">
+            <h2 class="section-badge"data-aos="fade-down"data-aos-duration="1500">Services</h2>
+            <p class="sec-heading"data-aos="fade-down"data-aos-duration="1500">
+              Empowering You to Take Control of <span>Your Finances</span>
+            </p>
+            <p class="sec-description"data-aos="fade-down"data-aos-duration="1500">
+              We simplify money management to help you save, grow and achieve
+              your financial goals. Start your journey to financial freedom
+              today.
+            </p>
+          </div>
+
+          <div class="service-card-wrapper">
+            <div class="row">
+              <div class="col-3 col-lg-5 col-md-6 col-sm-10"data-aos="flip-right">
+                <div class="service-card glass">
+                  <figure>
+                    <img
+                      src="./assets/services/secure-trust.png"
+                      alt="secure and trust"
+                    />
+                  </figure>
+                  <div class="service-content">
+                    <h3>Secure & Trusted</h3>
+                    <p>Set and track your financial goals</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-lg-5 col-md-6 col-sm-10"data-aos="flip-left">
+                <div class="service-card glass">
+                  <figure>
+                    <img
+                      src="./assets/services/total-profits.png"
+                      alt="total profits"
+                    />
+                  </figure>
+                  <div class="service-content">
+                    <h3>Total Profits</h3>
+                    <p>Optimize Spending Effortlessly</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-lg-5 col-md-6 col-sm-10"data-aos="flip-right">
+                <div class="service-card glass">
+                  <figure>
+                    <img
+                      src="./assets/services/expense-tracking.png"
+                      alt="expense tracking"
+                    />
+                  </figure>
+                  <div class="service-content">
+                    <h3>Expense Tracking</h3>
+                    <p>Easily track all your expenses</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-lg-5 col-md-6 col-sm-10"data-aos="flip-left">
+                <div class="service-card glass">
+                  <figure>
+                    <img
+                      src="./assets/services/buddget-managing.png"
+                      alt="buddget managing"
+                    />
+                  </figure>
+                  <div class="service-content">
+                    <h3>Budget Managing</h3>
+                    <p>Create and manage your budgets</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-btn">
+            <a href="features.html" class="btn btn-primary"data-aos="fade-down"data-aos-duration="1500">View More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-choose-us">
+        <div class="radial-blur"></div>
+        <div class="container">
+          <div class="section-content">
+            <p class="section-badge"data-aos="fade-down"data-aos-duration="1500">Why Choose Us</p>
+            <h2 class="sec-heading"data-aos="fade-down"data-aos-duration="1500">
+              Why Choose Our <span>Budget Planner?</span>
+            </h2>
+          </div>
+
+          <div class="buddget-planner-wrapper row">
+            <div class="buddget-planner-left col-6"data-aos="fade-down-right"data-aos-duration="1500">
+              <figure>
+                <img
+                  src="./assets/why-choose-us/girl-holding-pen.svg"
+                  alt="girl holding pen"
+                />
+              </figure>
+            </div>
+            <div class="buddget-planner-right col-6"data-aos="fade-down-left"data-aos-duration="1500">
+              <div class="feature-step">
+                <figure>
+                  <img
+                    src="./assets/why-choose-us/laptop-mobile.svg"
+                    alt="laptop-mobile"
+                  />
+                </figure>
+                <div class="feature-content">
+                  <h3>Easy to Use</h3>
+                  <p>Clean, minimalist interface designed for everyone.</p>
+                </div>
+              </div>
+              <div class="feature-step">
+                <figure>
+                  <img
+                    src="./assets/why-choose-us/object-subtract.svg"
+                    alt="object-subtract"
+                  />
+                </figure>
+                <div class="feature-content">
+                  <h3>Fully Customizable</h3>
+                  <p>Create unlimited budgets and categories.</p>
+                </div>
+              </div>
+              <div class="feature-step">
+                <figure>
+                  <img
+                    src="./assets/why-choose-us/money-bill-wheat.svg"
+                    alt="money-bill-wheat"
+                  />
+                </figure>
+                <div class="feature-content">
+                  <h3>Real-Time Updates</h3>
+                  <p>Stay on top of your finances instantly.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-btn">
+            <a href="features.html" class="btn btn-primary"data-aos="fade-down"data-aos-duration="1500">Explore More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="workflow">
+        <div class="container">
+          <div class="workflow-wrapper">
+            <div class="row">
+              <div class="col col-6 col-lg-12"data-aos="fade-down-right"data-aos-duration="1500">
+                <div class="workflow-content">
+                  <div class="section-content">
+                    <p class="section-badge"data-aos="fade-down"data-aos-duration="1500">Workflow</p>
+                    <h2 class="sec-heading">
+                      A smarter way to manage your money
+                    </h2>
+                    <p>
+                      Our ultimate solution for seamless and intelligent money
+                      management.
+                    </p>
+                  </div>
+                  <div class="savings-content">
+                    <h3>Automated Savings</h3>
+                    <p>
+                      Effortlessly save money with our automated savings
+                      feature. Set your goals, and Smart cash will so the rest,
+                      helping you achieve financial milestones without even
+                      thinking about it
+                    </p>
+                  </div>
+                  <div class="expences-content">
+                    <h3>Track your expenses</h3>
+                    <p>
+                      Stay on top of your spending with a simple and intuitive
+                      tracking system. Add, edit, and monitor expenses in
+                      seconds, helping you understand where your money goes and
+                      make smarter financial decisions every day.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-6 col-lg-12"data-aos="fade-down-left"data-aos-duration="1500">
+                <div class="workflow-steps glass">
+                  <div class="steps-cards">
+                    <div>
+                      <figure>
+                        <img src="./assets/workflow/signup.svg" alt="signup" />
+                      </figure>
+                      <div>
+                        <h3>Sign Up</h3>
+                        <p>Create your account in minutes.</p>
+                      </div>
+                    </div>
+
+                    <div>
+                      <figure>
+                        <img src="./assets/workflow/album.svg" alt="album" />
+                      </figure>
+                      <div>
+                        <h3>Link Accounts</h3>
+                        <p>Securely connect your financial accounts.</p>
+                      </div>
+                    </div>
+
+                    <div>
+                      <figure>
+                        <img
+                          src="./assets/workflow/analyze.svg"
+                          alt="analyze"
+                        />
+                      </figure>
+                      <div>
+                        <h3>Analyze</h3>
+                        <p>Access detailed insights and analytics.</p>
+                      </div>
+                    </div>
+
+                    <div>
+                      <figure>
+                        <img
+                          src="./assets/workflow/transact.svg"
+                          alt="transact"
+                        />
+                      </figure>
+                      <div>
+                        <h3>Transact</h3>
+                        <p>Send or receive payments effortlessly.</p>
+                      </div>
+                    </div>
+
+                    <div>
+                      <figure>
+                        <img
+                          src="./assets/workflow/optimize.svg"
+                          alt="optimize"
+                        />
+                      </figure>
+                      <div>
+                        <h3>Optimize</h3>
+                        <p>Use our tools to improve financial decisions.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-us">
+        <div class="radial-blur"></div>
+        <div class="container">
+          <div class="section-content">
+            <h2 class="section-badge"data-aos="fade-down"data-aos-duration="1500">About Us</h2>
+          </div>
+          <div class="about-wrapper">
+            <div class="row">
+              <div class="col col-6 col-lg-12" data-aos="fade-down-right"data-aos-duration="1500">
+                <!-- =======  main div -->
+                <div class="about-left">
+                  <figure>
+                    <img
+                      src="./assets/about-us/laptop-clip-path.svg"
+                      alt="laptop"
+                    />
+                  </figure>
+
+                  <!-- ======= top div -->
+                  <div class="live-chat glass">
+                    <div class="live-chat-content">
+                      <span>Prefer to Chat Live?</span>
+                      <span
+                        >Our support team is available 24/7 to assist you in
+                        real-time.</span
+                      >
+                    </div>
+                    <div class="live-chat-btn">
+                      <figure>
+                        <img src="./assets/about-us/live-chat.svg" alt="chat" />
+                      </figure>
+                      <a href="#" class="btn btn-primary"
+                        >Your Own Budgeting friend</a
+                      >
+                      <!-- <button class="btn btn-primary">
+                        Your Own Budgeting friend
+                      </button> -->
+                    </div>
+                  </div>
+                  <!-- ======= bottom div -->
+                  <div class="about-feature glass">
+                    <!-- <div class="feature"> -->
+                    <span>Smart, Simple</span>
+                    <span>Money</span>
+                    <span>Management</span>
+                    <!-- </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col col-6 col-lg-12" data-aos="fade-down-left"data-aos-duration="1500">
+                <div class="section-content">
+                  <p class="sec-heading">
+                    Your Pocket-Sized <span>Financial Coach</span>
+                  </p>
+                  <p class="sec-description">
+                    We designed this platform to make expense tracking simple
+                    and intuitive. Managing money should feel easy, not
+                    overwhelming. Our clean interface helps you understand your
+                    spending at a glance. Smart tools highlight patterns so you
+                    can make informed decisions. You can track expenses quickly
+                    and stay organized every day. Visual insights show exactly
+                    where your money goes. The platform works seamlessly across
+                    all your devices. Whether you're at home or on the go, your
+                    budget is always accessible. We believe financial clarity
+                    leads to financial confidence. That’s why we focus on
+                    reliability and ease of use. Your data stays safe with
+                    strong security and privacy protection. Our mission is to
+                    help you take control of your finances with confidence and
+                    ease.
+                  </p>
+                  <div class="section-btn">
+                    <a href="about-us.html" class="btn btn-primary"
+                      >View More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="expenses-section">
+        <div class="radial-blur"></div>
+        <div class="container">
+          <!-- Expense Header -->
+          <div class="section-content">
+            <p class="section-badge"data-aos="fade-down"data-aos-duration="1500">Core Value Propositions and Integration</p>
+            <h2 class="sec-heading"data-aos="fade-down"data-aos-duration="1500"><span>Expenses</span> Overview</h2>
+            <p class="sec-description"data-aos="fade-down"data-aos-duration="1500">
+              Understand your financial habits. Quick insights for smarter
+              choices.
+            </p>
+          </div>
+
+          <!-- Summary Cards -->
+          <div class="row expenses-summary">
+            <div class="col col-4 col-md-12"data-aos="flip-right"data-aos-duration="1500">
+              <div class="summary-card glass-border">
+                <p>Total Expenses</p>
+                <span>₹45,000</span>
+              </div>
+            </div>
+            <div class="col col-4 col-md-12"data-aos="flip-left"data-aos-duration="1500">
+              <div class="summary-card glass-border">
+                <p>Fixed Expenses</p>
+                <span>₹30,000</span>
+              </div>
+            </div>
+            <div class="col col-4 col-md-12"data-aos="flip-right"data-aos-duration="1500">
+              <div class="summary-card glass-border">
+                <p>Variable Expenses</p>
+                <span>₹15,000</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div class="row exp-table">
+            <!-- Fixed Expenses Table -->
+            <div class="col col-8 col-lg-12">
+              <div class="table-header"data-aos="fade-down"data-aos-duration="1500">
+                <h3>Fixed Expenses</h3>
+                <a class="btn" href="https://bikram8538.github.io/dashboard-finpocket/expense.html">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12C22 17.523 17.523 22 12 22C6.477 22 2 17.523 2 12ZM12 4C9.87827 4 7.84344 4.84285 6.34315 6.34315C4.84285 7.84344 4 9.87827 4 12C4 14.1217 4.84285 16.1566 6.34315 17.6569C7.84344 19.1571 9.87827 20 12 20C14.1217 20 16.1566 19.1571 17.6569 17.6569C19.1571 16.1566 20 14.1217 20 12C20 9.87827 19.1571 7.84344 17.6569 6.34315C16.1566 4.84285 14.1217 4 12 4Z"
+                      fill="white"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M13 7C13 6.73478 12.8946 6.48043 12.7071 6.29289C12.5196 6.10536 12.2652 6 12 6C11.7348 6 11.4804 6.10536 11.2929 6.29289C11.1054 6.48043 11 6.73478 11 7V11H7C6.73478 11 6.48043 11.1054 6.29289 11.2929C6.10536 11.4804 6 11.7348 6 12C6 12.2652 6.10536 12.5196 6.29289 12.7071C6.48043 12.8946 6.73478 13 7 13H11V17C11 17.2652 11.1054 17.5196 11.2929 17.7071C11.4804 17.8946 11.7348 18 12 18C12.2652 18 12.5196 17.8946 12.7071 17.7071C12.8946 17.5196 13 17.2652 13 17V13H17C17.2652 13 17.5196 12.8946 17.7071 12.7071C17.8946 12.5196 18 12.2652 18 12C18 11.7348 17.8946 11.4804 17.7071 11.2929C17.5196 11.1054 17.2652 11 17 11H13V7Z"
+                      fill="white"
+                    />
+                  </svg>
+                  <span data-aos="fade-down"data-aos-duration="1500">Add Fixed Expenses</span>
+                </a>
+              </div>
+
+              <div class="glass-border expenses-table"data-aos="zoom-in"data-aos-duration="1500">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Category</th>
+                      <th>Name</th>
+                      <th>Amount</th>
+                      <th>Due Date</th>
+                      <th>Auto Pay</th>
+                      <th>Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Housing</td>
+                      <td>Rent</td>
+                      <td>₹5000.00</td>
+                      <td>OCT 1 2024</td>
+                      <td><span class="toggle-on">ON</span></td>
+                    <td>
+  <div class="action-buttons">
+    
+    <!-- Edit Button -->
+    <button class="icon-btn edit-btn">
+      <svg width="20" height="20" viewBox="0 0 35 35" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M7.29167 27.7083H9.36979L23.625 13.4531L21.5469 11.375L7.29167 25.6302V27.7083ZM4.375 30.625V24.4271L23.625 5.21354C23.9167 4.94618 24.239 4.73958 24.5919 4.59375C24.9448 4.44792 25.3152 4.375 25.7031 4.375C26.091 4.375 26.4678 4.44792 26.8333 4.59375C27.1989 4.73958 27.5149 4.95833 27.7812 5.25L29.7865 7.29167C30.0781 7.55903 30.291 7.875 30.4252 8.23958C30.5594 8.60417 30.626 8.96875 30.625 9.33333C30.625 9.72222 30.5584 10.0931 30.4252 10.446C30.292 10.799 30.0791 11.1208 29.7865 11.4115L10.5729 30.625H4.375Z"
+          fill="white"/>
+      </svg>
+    </button>
+
+    <!-- Delete Button -->
+    <button class="icon-btn delete-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M3 6H21"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"/>
+        <path
+          d="M8 6V4C8 3.44772 8.44772 3 9 3H15C15.5523 3 16 3.44772 16 4V6"
+          stroke="white"
+          stroke-width="2"/>
+        <path
+          d="M19 6L18 20C17.9477 20.5523 17.5523 21 17 21H7C6.44772 21 6.05228 20.5523 6 20L5 6"
+          stroke="white"
+          stroke-width="2"/>
+      </svg>
+    </button>
+
+  </div>
+</td>
+
+                    </tr>
+                    <tr>
+                      <td>Subscription</td>
+                      <td>Netflix</td>
+                      <td>₹5000.00</td>
+                      <td>OCT 1 2024</td>
+                      <td><span class="toggle-on">ON</span></td>
+                      <td>
+  <div class="action-buttons">
+    
+    <!-- Edit Button -->
+    <button class="icon-btn edit-btn">
+      <svg width="20" height="20" viewBox="0 0 35 35" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M7.29167 27.7083H9.36979L23.625 13.4531L21.5469 11.375L7.29167 25.6302V27.7083ZM4.375 30.625V24.4271L23.625 5.21354C23.9167 4.94618 24.239 4.73958 24.5919 4.59375C24.9448 4.44792 25.3152 4.375 25.7031 4.375C26.091 4.375 26.4678 4.44792 26.8333 4.59375C27.1989 4.73958 27.5149 4.95833 27.7812 5.25L29.7865 7.29167C30.0781 7.55903 30.291 7.875 30.4252 8.23958C30.5594 8.60417 30.626 8.96875 30.625 9.33333C30.625 9.72222 30.5584 10.0931 30.4252 10.446C30.292 10.799 30.0791 11.1208 29.7865 11.4115L10.5729 30.625H4.375Z"
+          fill="white"/>
+      </svg>
+    </button>
+
+    <!-- Delete Button -->
+    <button class="icon-btn delete-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M3 6H21"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"/>
+        <path
+          d="M8 6V4C8 3.44772 8.44772 3 9 3H15C15.5523 3 16 3.44772 16 4V6"
+          stroke="white"
+          stroke-width="2"/>
+        <path
+          d="M19 6L18 20C17.9477 20.5523 17.5523 21 17 21H7C6.44772 21 6.05228 20.5523 6 20L5 6"
+          stroke="white"
+          stroke-width="2"/>
+      </svg>
+    </button>
+
+  </div>
+</td>
+
+                    </tr>
+                    <tr>
+                      <td>Insurance</td>
+                      <td>Car</td>
+                      <td>₹5000.00</td>
+                      <td>OCT 1 2024</td>
+                      <td><span class="toggle-on">ON</span></td>
+                      <td>
+  <div class="action-buttons">
+    
+    <!-- Edit Button -->
+    <button class="icon-btn edit-btn">
+      <svg width="20" height="20" viewBox="0 0 35 35" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M7.29167 27.7083H9.36979L23.625 13.4531L21.5469 11.375L7.29167 25.6302V27.7083ZM4.375 30.625V24.4271L23.625 5.21354C23.9167 4.94618 24.239 4.73958 24.5919 4.59375C24.9448 4.44792 25.3152 4.375 25.7031 4.375C26.091 4.375 26.4678 4.44792 26.8333 4.59375C27.1989 4.73958 27.5149 4.95833 27.7812 5.25L29.7865 7.29167C30.0781 7.55903 30.291 7.875 30.4252 8.23958C30.5594 8.60417 30.626 8.96875 30.625 9.33333C30.625 9.72222 30.5584 10.0931 30.4252 10.446C30.292 10.799 30.0791 11.1208 29.7865 11.4115L10.5729 30.625H4.375Z"
+          fill="white"/>
+      </svg>
+    </button>
+
+    <!-- Delete Button -->
+    <button class="icon-btn delete-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M3 6H21"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"/>
+        <path
+          d="M8 6V4C8 3.44772 8.44772 3 9 3H15C15.5523 3 16 3.44772 16 4V6"
+          stroke="white"
+          stroke-width="2"/>
+        <path
+          d="M19 6L18 20C17.9477 20.5523 17.5523 21 17 21H7C6.44772 21 6.05228 20.5523 6 20L5 6"
+          stroke="white"
+          stroke-width="2"/>
+      </svg>
+    </button>
+
+  </div>
+</td>
+
+                    </tr>
+                    <tr>
+                      <td>Loans</td>
+                      <td>Gold loan</td>
+                      <td>₹5000.00</td>
+                      <td>OCT 1 2024</td>
+                      <td><span class="toggle-on">ON</span></td>
+                   <td>
+  <div class="action-buttons">
+    
+    <!-- Edit Button -->
+    <button class="icon-btn edit-btn">
+      <svg width="20" height="20" viewBox="0 0 35 35" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M7.29167 27.7083H9.36979L23.625 13.4531L21.5469 11.375L7.29167 25.6302V27.7083ZM4.375 30.625V24.4271L23.625 5.21354C23.9167 4.94618 24.239 4.73958 24.5919 4.59375C24.9448 4.44792 25.3152 4.375 25.7031 4.375C26.091 4.375 26.4678 4.44792 26.8333 4.59375C27.1989 4.73958 27.5149 4.95833 27.7812 5.25L29.7865 7.29167C30.0781 7.55903 30.291 7.875 30.4252 8.23958C30.5594 8.60417 30.626 8.96875 30.625 9.33333C30.625 9.72222 30.5584 10.0931 30.4252 10.446C30.292 10.799 30.0791 11.1208 29.7865 11.4115L10.5729 30.625H4.375Z"
+          fill="white"/>
+      </svg>
+    </button>
+
+    <!-- Delete Button -->
+    <button class="icon-btn delete-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M3 6H21"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"/>
+        <path
+          d="M8 6V4C8 3.44772 8.44772 3 9 3H15C15.5523 3 16 3.44772 16 4V6"
+          stroke="white"
+          stroke-width="2"/>
+        <path
+          d="M19 6L18 20C17.9477 20.5523 17.5523 21 17 21H7C6.44772 21 6.05228 20.5523 6 20L5 6"
+          stroke="white"
+          stroke-width="2"/>
+      </svg>
+    </button>
+
+  </div>
+</td>
+
+                    </tr>
+                    <tr>
+                      <td>Services</td>
+                      <td>Water</td>
+                      <td>₹5000.00</td>
+                      <td>OCT 1 2024</td>
+                      <td><span class="toggle-on">ON</span></td>
+                    <td>
+  <div class="action-buttons">
+    
+    <!-- Edit Button -->
+    <button class="icon-btn edit-btn">
+      <svg width="20" height="20" viewBox="0 0 35 35" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M7.29167 27.7083H9.36979L23.625 13.4531L21.5469 11.375L7.29167 25.6302V27.7083ZM4.375 30.625V24.4271L23.625 5.21354C23.9167 4.94618 24.239 4.73958 24.5919 4.59375C24.9448 4.44792 25.3152 4.375 25.7031 4.375C26.091 4.375 26.4678 4.44792 26.8333 4.59375C27.1989 4.73958 27.5149 4.95833 27.7812 5.25L29.7865 7.29167C30.0781 7.55903 30.291 7.875 30.4252 8.23958C30.5594 8.60417 30.626 8.96875 30.625 9.33333C30.625 9.72222 30.5584 10.0931 30.4252 10.446C30.292 10.799 30.0791 11.1208 29.7865 11.4115L10.5729 30.625H4.375Z"
+          fill="white"/>
+      </svg>
+    </button>
+
+    <!-- Delete Button -->
+    <button class="icon-btn delete-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M3 6H21"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"/>
+        <path
+          d="M8 6V4C8 3.44772 8.44772 3 9 3H15C15.5523 3 16 3.44772 16 4V6"
+          stroke="white"
+          stroke-width="2"/>
+        <path
+          d="M19 6L18 20C17.9477 20.5523 17.5523 21 17 21H7C6.44772 21 6.05228 20.5523 6 20L5 6"
+          stroke="white"
+          stroke-width="2"/>
+      </svg>
+    </button>
+
+  </div>
+</td>
+
+                    </tr>
+
+                    <tr>
+                      <td>Food</td>
+                      <td>Grocery Shopping</td>
+                      <td>₹5000.00</td>
+                      <td>OCT 1 2024</td>
+                      <td><span class="toggle-on">ON</span></td>
+                     <td>
+  <div class="action-buttons">
+    
+    <!-- Edit Button -->
+    <button class="icon-btn edit-btn">
+      <svg width="20" height="20" viewBox="0 0 35 35" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M7.29167 27.7083H9.36979L23.625 13.4531L21.5469 11.375L7.29167 25.6302V27.7083ZM4.375 30.625V24.4271L23.625 5.21354C23.9167 4.94618 24.239 4.73958 24.5919 4.59375C24.9448 4.44792 25.3152 4.375 25.7031 4.375C26.091 4.375 26.4678 4.44792 26.8333 4.59375C27.1989 4.73958 27.5149 4.95833 27.7812 5.25L29.7865 7.29167C30.0781 7.55903 30.291 7.875 30.4252 8.23958C30.5594 8.60417 30.626 8.96875 30.625 9.33333C30.625 9.72222 30.5584 10.0931 30.4252 10.446C30.292 10.799 30.0791 11.1208 29.7865 11.4115L10.5729 30.625H4.375Z"
+          fill="white"/>
+      </svg>
+    </button>
+
+    <!-- Delete Button -->
+    <button class="icon-btn delete-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M3 6H21"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"/>
+        <path
+          d="M8 6V4C8 3.44772 8.44772 3 9 3H15C15.5523 3 16 3.44772 16 4V6"
+          stroke="white"
+          stroke-width="2"/>
+        <path
+          d="M19 6L18 20C17.9477 20.5523 17.5523 21 17 21H7C6.44772 21 6.05228 20.5523 6 20L5 6"
+          stroke="white"
+          stroke-width="2"/>
+      </svg>
+    </button>
+
+  </div>
+</td>
+
+                    </tr>
+                    <tr>
+                      <td>Transportation</td>
+                      <td>Fuel</td>
+                      <td>₹5000.00</td>
+                      <td>OCT 1 2024</td>
+                      <td><span class="toggle-on">ON</span></td>
+                    <td>
+  <div class="action-buttons">
+    
+    <!-- Edit Button -->
+    <button class="icon-btn edit-btn">
+      <svg width="20" height="20" viewBox="0 0 35 35" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M7.29167 27.7083H9.36979L23.625 13.4531L21.5469 11.375L7.29167 25.6302V27.7083ZM4.375 30.625V24.4271L23.625 5.21354C23.9167 4.94618 24.239 4.73958 24.5919 4.59375C24.9448 4.44792 25.3152 4.375 25.7031 4.375C26.091 4.375 26.4678 4.44792 26.8333 4.59375C27.1989 4.73958 27.5149 4.95833 27.7812 5.25L29.7865 7.29167C30.0781 7.55903 30.291 7.875 30.4252 8.23958C30.5594 8.60417 30.626 8.96875 30.625 9.33333C30.625 9.72222 30.5584 10.0931 30.4252 10.446C30.292 10.799 30.0791 11.1208 29.7865 11.4115L10.5729 30.625H4.375Z"
+          fill="white"/>
+      </svg>
+    </button>
+
+    <!-- Delete Button -->
+    <button class="icon-btn delete-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M3 6H21"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"/>
+        <path
+          d="M8 6V4C8 3.44772 8.44772 3 9 3H15C15.5523 3 16 3.44772 16 4V6"
+          stroke="white"
+          stroke-width="2"/>
+        <path
+          d="M19 6L18 20C17.9477 20.5523 17.5523 21 17 21H7C6.44772 21 6.05228 20.5523 6 20L5 6"
+          stroke="white"
+          stroke-width="2"/>
+      </svg>
+    </button>
+
+  </div>
+</td>
+
+                    </tr>
+                    <tr>
+                      <td>Healthcare</td>
+                      <td>Medical Checkup</td>
+                      <td>₹5000.00</td>
+                      <td>OCT 1 2024</td>
+                      <td><span class="toggle-on">ON</span></td>
+                     <td>
+  <div class="action-buttons">
+    
+    <!-- Edit Button -->
+    <button class="icon-btn edit-btn">
+      <svg width="20" height="20" viewBox="0 0 35 35" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M7.29167 27.7083H9.36979L23.625 13.4531L21.5469 11.375L7.29167 25.6302V27.7083ZM4.375 30.625V24.4271L23.625 5.21354C23.9167 4.94618 24.239 4.73958 24.5919 4.59375C24.9448 4.44792 25.3152 4.375 25.7031 4.375C26.091 4.375 26.4678 4.44792 26.8333 4.59375C27.1989 4.73958 27.5149 4.95833 27.7812 5.25L29.7865 7.29167C30.0781 7.55903 30.291 7.875 30.4252 8.23958C30.5594 8.60417 30.626 8.96875 30.625 9.33333C30.625 9.72222 30.5584 10.0931 30.4252 10.446C30.292 10.799 30.0791 11.1208 29.7865 11.4115L10.5729 30.625H4.375Z"
+          fill="white"/>
+      </svg>
+    </button>
+
+    <!-- Delete Button -->
+    <button class="icon-btn delete-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M3 6H21"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"/>
+        <path
+          d="M8 6V4C8 3.44772 8.44772 3 9 3H15C15.5523 3 16 3.44772 16 4V6"
+          stroke="white"
+          stroke-width="2"/>
+        <path
+          d="M19 6L18 20C17.9477 20.5523 17.5523 21 17 21H7C6.44772 21 6.05228 20.5523 6 20L5 6"
+          stroke="white"
+          stroke-width="2"/>
+      </svg>
+    </button>
+
+  </div>
+</td>
+
+                    </tr>
+                    <tr>
+                      <td>Education</td>
+                      <td>Online Course</td>
+                      <td>₹5000.00</td>
+                      <td>OCT 1 2024</td>
+                      <td><span class="toggle-on">ON</span></td>
+                   <td>
+  <div class="action-buttons">
+    
+    <!-- Edit Button -->
+    <button class="icon-btn edit-btn">
+      <svg width="20" height="20" viewBox="0 0 35 35" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M7.29167 27.7083H9.36979L23.625 13.4531L21.5469 11.375L7.29167 25.6302V27.7083ZM4.375 30.625V24.4271L23.625 5.21354C23.9167 4.94618 24.239 4.73958 24.5919 4.59375C24.9448 4.44792 25.3152 4.375 25.7031 4.375C26.091 4.375 26.4678 4.44792 26.8333 4.59375C27.1989 4.73958 27.5149 4.95833 27.7812 5.25L29.7865 7.29167C30.0781 7.55903 30.291 7.875 30.4252 8.23958C30.5594 8.60417 30.626 8.96875 30.625 9.33333C30.625 9.72222 30.5584 10.0931 30.4252 10.446C30.292 10.799 30.0791 11.1208 29.7865 11.4115L10.5729 30.625H4.375Z"
+          fill="white"/>
+      </svg>
+    </button>
+
+    <!-- Delete Button -->
+    <button class="icon-btn delete-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M3 6H21"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"/>
+        <path
+          d="M8 6V4C8 3.44772 8.44772 3 9 3H15C15.5523 3 16 3.44772 16 4V6"
+          stroke="white"
+          stroke-width="2"/>
+        <path
+          d="M19 6L18 20C17.9477 20.5523 17.5523 21 17 21H7C6.44772 21 6.05228 20.5523 6 20L5 6"
+          stroke="white"
+          stroke-width="2"/>
+      </svg>
+    </button>
+
+  </div>
+</td>
+
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Variable Expenses -->
+            <div class="col col-4 col-lg-12">
+              <div class="variable-expenses">
+                <div class="table-header">
+                  <h3 data-aos="fade-down"data-aos-duration="1500">Variable Expenses</h3>
+                  <a class="btn" href="https://bikram8538.github.io/dashboard-finpocket/buget.html">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12C22 17.523 17.523 22 12 22C6.477 22 2 17.523 2 12ZM12 4C9.87827 4 7.84344 4.84285 6.34315 6.34315C4.84285 7.84344 4 9.87827 4 12C4 14.1217 4.84285 16.1566 6.34315 17.6569C7.84344 19.1571 9.87827 20 12 20C14.1217 20 16.1566 19.1571 17.6569 17.6569C19.1571 16.1566 20 14.1217 20 12C20 9.87827 19.1571 7.84344 17.6569 6.34315C16.1566 4.84285 14.1217 4 12 4Z"
+                        fill="white"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M13 7C13 6.73478 12.8946 6.48043 12.7071 6.29289C12.5196 6.10536 12.2652 6 12 6C11.7348 6 11.4804 6.10536 11.2929 6.29289C11.1054 6.48043 11 6.73478 11 7V11H7C6.73478 11 6.48043 11.1054 6.29289 11.2929C6.10536 11.4804 6 11.7348 6 12C6 12.2652 6.10536 12.5196 6.29289 12.7071C6.48043 12.8946 6.73478 13 7 13H11V17C11 17.2652 11.1054 17.5196 11.2929 17.7071C11.4804 17.8946 11.7348 18 12 18C12.2652 18 12.5196 17.8946 12.7071 17.7071C12.8946 17.5196 13 17.2652 13 17V13H17C17.2652 13 17.5196 12.8946 17.7071 12.7071C17.8946 12.5196 18 12.2652 18 12C18 11.7348 17.8946 11.4804 17.7071 11.2929C17.5196 11.1054 17.2652 11 17 11H13V7Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <span data-aos="fade-down"data-aos-duration="1500">Add Category</span>
+                  </a>
+                </div>
+
+                <div class="variable-card glass-border"data-aos="flip-right">
+                  <div class="card-top">
+                    <svg
+                      width="35"
+                      height="35"
+                      viewBox="0 0 35 35"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 5C0 2.23858 2.23858 0 5 0H30C32.7614 0 35 2.23858 35 5V30C35 32.7614 32.7614 35 30 35H5C2.23858 35 0 32.7614 0 30V5Z"
+                        fill="#B9FB6A"
+                        fill-opacity="0.05"
+                      />
+                      <path
+                        d="M25.7943 26.2513C26.5678 26.2513 27.3097 26.5586 27.8567 27.1056C28.4037 27.6526 28.7109 28.3944 28.7109 29.168C28.7109 29.9415 28.4037 30.6834 27.8567 31.2304C27.3097 31.7773 26.5678 32.0846 25.7943 32.0846C25.0207 32.0846 24.2789 31.7773 23.7319 31.2304C23.1849 30.6834 22.8776 29.9415 22.8776 29.168C22.8776 27.5492 24.1755 26.2513 25.7943 26.2513ZM2.46094 2.91797H7.22969L8.60052 5.83464H30.1693C30.556 5.83464 30.927 5.98828 31.2005 6.26177C31.474 6.53526 31.6276 6.9062 31.6276 7.29297C31.6276 7.54089 31.5547 7.7888 31.4526 8.02214L26.2318 17.4576C25.7359 18.3471 24.7734 18.9596 23.6797 18.9596H12.8151L11.5026 21.3367L11.4589 21.5117C11.4589 21.6084 11.4973 21.7011 11.5656 21.7695C11.634 21.8379 11.7267 21.8763 11.8234 21.8763H28.7109V24.793H11.2109C10.4374 24.793 9.69553 24.4857 9.14854 23.9387C8.60156 23.3917 8.29427 22.6499 8.29427 21.8763C8.29427 21.3659 8.42552 20.8846 8.64427 20.4763L10.6276 16.9034L5.3776 5.83464H2.46094V2.91797ZM11.2109 26.2513C11.9845 26.2513 12.7264 26.5586 13.2733 27.1056C13.8203 27.6526 14.1276 28.3944 14.1276 29.168C14.1276 29.9415 13.8203 30.6834 13.2733 31.2304C12.7264 31.7773 11.9845 32.0846 11.2109 32.0846C10.4374 32.0846 9.69553 31.7773 9.14854 31.2304C8.60156 30.6834 8.29427 29.9415 8.29427 29.168C8.29427 27.5492 9.59219 26.2513 11.2109 26.2513ZM24.3359 16.043L28.3901 8.7513H9.95677L13.3984 16.043H24.3359Z"
+                        fill="#B9FB6A"
+                      />
+                    </svg>
+                    <span>Groceries</span>
+                  </div>
+                  <div class="amount">
+                    <span>₹320.50 <small>of ₹500</small></span>
+                  </div>
+                  <div class="progress">
+                    <span class="progress-1"></span>
+                  </div>
+                  <small>₹179.50 Remaining</small>
+                </div>
+
+                <div class="variable-card glass-border"data-aos="flip-right">
+                  <div class="card-top">
+                    <svg
+                      width="35"
+                      height="35"
+                      viewBox="0 0 35 35"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 5C0 2.23858 2.23858 0 5 0H30C32.7614 0 35 2.23858 35 5V30C35 32.7614 32.7614 35 30 35H5C2.23858 35 0 32.7614 0 30V5Z"
+                        fill="#B9FB6A"
+                        fill-opacity="0.05"
+                      />
+                      <path
+                        d="M26.7189 22.04C27.1237 21.6557 27.446 21.193 27.6662 20.6802C27.8864 20.1673 28 19.615 28 19.0569C28 18.4988 27.8864 17.9465 27.6662 17.4337C27.446 16.9208 27.1237 16.4582 26.7189 16.0738C25.8904 15.2876 24.7918 14.8492 23.6495 14.8492C22.5073 14.8492 21.4086 15.2876 20.5802 16.0738L17.5 19.1538L14.4198 16.0738C13.5914 15.2876 12.4927 14.8492 11.3505 14.8492C10.2082 14.8492 9.10956 15.2876 8.28107 16.0738C7.87634 16.4582 7.55405 16.9208 7.33381 17.4337C7.11357 17.9465 7 18.4988 7 19.0569C7 19.615 7.11357 20.1673 7.33381 20.6802C7.55405 21.193 7.87634 21.6557 8.28107 22.04L17.5 31L26.7189 22.04ZM17.5 11.6154C18.6425 11.6154 19.7383 11.1615 20.5462 10.3537C21.354 9.54584 21.8079 8.45016 21.8079 7.30769C21.8079 6.16522 21.354 5.06954 20.5462 4.26169C19.7383 3.45384 18.6425 3 17.5 3C16.3575 3 15.2617 3.45384 14.4538 4.26169C13.646 5.06954 13.1921 6.16522 13.1921 7.30769C13.1921 8.45016 13.646 9.54584 14.4538 10.3537C15.2617 11.1615 16.3575 11.6154 17.5 11.6154Z"
+                        stroke="#B9FB6A"
+                        stroke-width="3"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      /></svg
+                    ><span>Healthcare</span>
+                  </div>
+                  <div class="amount">
+                    <span>₹1500 <small>of ₹2000</small></span>
+                  </div>
+                  <div class="progress">
+                    <span class="progress-2"></span>
+                  </div>
+                  <small>₹500 Remaining</small>
+                </div>
+
+                <div class="variable-card glass-border"data-aos="flip-right">
+                  <div class="card-top">
+                    <svg
+                      width="35"
+                      height="35"
+                      viewBox="0 0 35 35"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 5C0 2.23858 2.23858 0 5 0H30C32.7614 0 35 2.23858 35 5V30C35 32.7614 32.7614 35 30 35H5C2.23858 35 0 32.7614 0 30V5Z"
+                        fill="#B9FB6A"
+                        fill-opacity="0.05"
+                      />
+                      <path
+                        d="M14.7552 29.4525V21.3704L16.74 15.6989C16.7867 15.5823 16.8601 15.4884 16.9602 15.4175C17.0603 15.3475 17.2057 15.3125 17.3962 15.3125H27.8175C27.9828 15.3125 28.1218 15.3475 28.2346 15.4175C28.3474 15.4875 28.4271 15.5818 28.4738 15.7004L30.46 21.3704V29.4525C30.46 29.6246 30.4012 29.7694 30.2835 29.8871C30.1659 30.0047 30.0206 30.0635 29.8475 30.0635H29.6127C29.4397 30.0635 29.2943 30.0052 29.1767 29.8885C29.059 29.7719 29.0007 29.6265 29.0017 29.4525V27.596H16.2121V29.4525C16.2121 29.6246 16.1537 29.7694 16.0371 29.8871C15.9204 30.0047 15.7751 30.0635 15.601 30.0635H15.3662C15.1932 30.0635 15.0478 30.0052 14.9302 29.8885C14.8135 29.7699 14.7552 29.6246 14.7552 29.4525ZM16.549 20.1921H28.6648L27.4194 16.6031H17.7944L16.549 20.1921ZM18.3442 25.0716C18.7097 25.0716 19.016 24.9482 19.2629 24.7012C19.5099 24.4543 19.6338 24.148 19.6348 23.7825C19.6358 23.4169 19.5118 23.1107 19.2629 22.8637C19.014 22.6168 18.7078 22.4928 18.3442 22.4918C17.9806 22.4909 17.6743 22.6143 17.4254 22.8623C17.1765 23.1102 17.0526 23.4164 17.0535 23.781C17.0545 24.1456 17.1785 24.4523 17.4254 24.7012C17.6724 24.9501 17.9786 25.0736 18.3442 25.0716ZM26.8696 25.0716C27.2351 25.0716 27.5414 24.9482 27.7883 24.7012C28.0362 24.4543 28.1602 24.148 28.1602 23.7825C28.1602 23.4169 28.0362 23.1107 27.7883 22.8637C27.5404 22.6168 27.2342 22.4928 26.8696 22.4918C26.505 22.4909 26.1987 22.6143 25.9508 22.8623C25.7029 23.1102 25.5794 23.4164 25.5804 23.781C25.5814 24.1456 25.7049 24.4523 25.9508 24.7012C26.1968 24.9501 26.5031 25.0736 26.8696 25.0716ZM9.25729 18.3983V16.1539H11.5017V18.3983H9.25729ZM15.0906 11.1066V8.86227H17.335V11.1066H15.0906ZM9.25729 24.2316V21.9873H11.5017V24.2316H9.25729ZM9.25729 30.065V27.8206H11.5017V30.065H9.25729ZM4.54688 30.065V11.4421H10.3802V4.15039H22.0469V12.0604H20.5885V5.60872H11.8385V12.9004H6.00521V30.065H4.54688Z"
+                        fill="#B9FB6A"
+                      />
+                    </svg>
+                    <span>Transportation</span>
+                  </div>
+                  <div class="amount">
+                    <span>₹500 <small>of ₹700</small></span>
+                  </div>
+                  <div class="progress">
+                    <span class="progress-3"></span>
+                  </div>
+                  <small>₹200 Remaining</small>
+                </div>
+              </div>
+              <!-- Bottom CTA -->
+              <div class="expenses-cta">
+                <a href="signup.html" class="btn btn-secondary"data-aos="fade-down"data-aos-duration="1500">Sign Up</a>
+                <a
+                  href="https://bikram8538.github.io/dashboard-finpocket/"
+                  class="btn btn-primary"
+                  data-aos="fade-down"data-aos-duration="1500">Know More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="savings-goals">
+            <!-- Header -->
+            <div class="section-content">
+              <h2 class="sec-heading"><span>Savings</span> Goals</h2>
+            </div>
+
+            <!-- 2-column layout -->
+            <div class="goals-layout">
+              <!-- LEFT COLUMN -->
+              <div class="savings-column">
+                <div class="goals-header">
+                  <h3>Savings Account</h3>
+                  <a
+                    href="https://bikram8538.github.io/dashboard-finpocket/"
+                    class="add-goal-btn"
+                  ></a>
+                </div>
+
+                <div
+                  class="goal-card wide-card"
+                  data-current="15000"
+                  data-target="20000"
+                >
+                  <!-- LEFT CONTENT -->
+                  <div class="goal-info">
+                    <h4>High-Yield Savings</h4>
+
+                    <div class="goal-meta">
+                      <span>₹20K Target:</span>
+                      <span class="goal-percent">0%</span>
+                    </div>
+
+                    <div class="goal-progress-bar">
+                      <span class="progress-fill"></span>
+                    </div>
+                  </div>
+
+                  <!-- RIGHT CIRCLE -->
+                  <div class="goal-ring">
+                    <svg viewBox="0 0 120 120">
+                      <circle class="ring-bg" cx="60" cy="60" r="52" />
+                      <circle class="ring-progress" cx="60" cy="60" r="52" />
+                    </svg>
+                    <span class="ring-value">0</span>
+                  </div>
+                </div>
+
+                <div
+                  class="goal-card wide-card"
+                  data-current="25500"
+                  data-target="30000"
+                >
+                  <!-- LEFT CONTENT -->
+                  <div class="goal-info">
+                    <h4>Emergency Fund</h4>
+
+                    <div class="goal-meta">
+                      <span>₹30K Target:</span>
+                      <span class="goal-percent">0%</span>
+                    </div>
+
+                    <div class="goal-progress-bar">
+                      <span class="progress-fill"></span>
+                    </div>
+                  </div>
+
+                  <!-- RIGHT CIRCLE -->
+                  <div class="goal-ring">
+                    <svg viewBox="0 0 120 120">
+                      <circle class="ring-bg" cx="60" cy="60" r="52" />
+                      <circle class="ring-progress" cx="60" cy="60" r="52" />
+                    </svg>
+                    <span class="ring-value">0</span>
+                  </div>
+                </div>
+
+                <div
+                  class="goal-card wide-card"
+                  data-current="6200"
+                  data-target="10000"
+                >
+                  <!-- LEFT CONTENT -->
+                  <div class="goal-info">
+                    <h4>Travel Fund</h4>
+
+                    <div class="goal-meta">
+                      <span>₹10K Target:</span>
+                      <span class="goal-percent">0%</span>
+                    </div>
+
+                    <div class="goal-progress-bar">
+                      <span class="progress-fill"></span>
+                    </div>
+                  </div>
+
+                  <!-- RIGHT CIRCLE -->
+                  <div class="goal-ring">
+                    <svg viewBox="0 0 120 120">
+                      <circle class="ring-bg" cx="60" cy="60" r="52" />
+                      <circle class="ring-progress" cx="60" cy="60" r="52" />
+                    </svg>
+                    <span class="ring-value">0</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- RIGHT COLUMN -->
+              <div class="goals-column">
+                <div class="goals-header">
+                  <h3>Financial Goals</h3>
+                  <a
+                    href="https://bikram8538.github.io/dashboard-finpocket/"
+                    class="add-goal-btn"
+                  ></a>
+                </div>
+
+                <div class="goals-grid">
+                  <!-- Home Renovation -->
+                  <div
+                    class="goal-card"
+                    data-current="108000"
+                    data-target="150000"
+                  >
+                    <div class="goal-header">
+                      <img
+                        src="./assets/saving-goal/home-renovation.svg"
+                        alt="home renovayion"
+                      />
+                      <h4>Home Renovation</h4>
+                    </div>
+                    <div class="goal-footer">
+                      <p class="goal-target">₹150,000 <span>Target:</span></p>
+                      <div class="goal-ring">
+                        <svg viewBox="0 0 110 110">
+                          <circle class="ring-bg" cx="55" cy="55" r="48" />
+                          <circle
+                            class="ring-progress"
+                            cx="55"
+                            cy="55"
+                            r="48"
+                          />
+                        </svg>
+                        <span class="ring-percent"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Medical -->
+                  <div
+                    class="goal-card"
+                    data-current="26000"
+                    data-target="50000"
+                  >
+                    <div class="goal-header">
+                      <img
+                        src="./assets/saving-goal/medical.svg"
+                        alt="medical"
+                      />
+                      <h4>Medical</h4>
+                    </div>
+                    <div class="goal-footer">
+                      <p class="goal-target">₹50,000 <span>Target:</span></p>
+                      <div class="goal-ring">
+                        <svg viewBox="0 0 110 110">
+                          <circle class="ring-bg" cx="55" cy="55" r="48" />
+                          <circle
+                            class="ring-progress"
+                            cx="55"
+                            cy="55"
+                            r="48"
+                          />
+                        </svg>
+                        <span class="ring-percent"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Education -->
+                  <div
+                    class="goal-card"
+                    data-current="24600"
+                    data-target="30000"
+                  >
+                    <div class="goal-header">
+                      <img
+                        src="./assets/saving-goal/education.svg"
+                        alt="education"
+                      />
+                      <h4>Education</h4>
+                    </div>
+                    <div class="goal-footer">
+                      <p class="goal-target">₹30,000 <span>Target:</span></p>
+                      <div class="goal-ring">
+                        <svg viewBox="0 0 110 110">
+                          <circle class="ring-bg" cx="55" cy="55" r="48" />
+                          <circle
+                            class="ring-progress"
+                            cx="55"
+                            cy="55"
+                            r="48"
+                          />
+                        </svg>
+                        <span class="ring-percent"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- New Car -->
+                  <div
+                    class="goal-card"
+                    data-current="189000"
+                    data-target="450000"
+                  >
+                    <div class="goal-header">
+                      <img src="./assets/saving-goal/car.svg" alt="car" />
+                      <h4>New Car</h4>
+                    </div>
+                    <div class="goal-footer">
+                      <p class="goal-target">₹450,000 <span>Target:</span></p>
+                      <div class="goal-ring">
+                        <svg viewBox="0 0 110 110">
+                          <circle class="ring-bg" cx="55" cy="55" r="48" />
+                          <circle
+                            class="ring-progress"
+                            cx="55"
+                            cy="55"
+                            r="48"
+                          />
+                        </svg>
+                        <span class="ring-percent"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing">
+        <div class="radial-blur"></div>
+        <div class="container">
+          <div class="section-content">
+            <p class="section-badge"data-aos="fade-down" data-aos-duration="1500">Pricing Plan</p>
+            <h2 class="sec-heading"data-aos="fade-down" data-aos-duration="1500">
+              <span >Choose the plan</span> that fits your financial journey
+            </h2>
+          </div>
+          <div class="pricing-reassurance"data-aos="fade-down" data-aos-duration="1500">
+            <ul class="reassurance-list">
+              <li class="reassurance-item">
+                <span
+                  ><img
+                    src="./assets/pricing/circle-clock.svg"
+                    alt="time" /></span
+                >14 Days free trial
+              </li>
+              <li class="reassurance-item">
+                <span><img src="./assets/pricing/x.svg" alt="x" /></span>Cancel
+                anytime
+              </li>
+              <li class="reassurance-item">
+                <span
+                  ><img
+                    src="./assets/pricing/shield-verify.svg"
+                    alt="shield-verify" /></span
+                >Secure payment
+              </li>
+            </ul>
+          </div>
+          <div class="billing-toggle" role="tablist" aria-label="Billing cycle"data-aos="fade-down" data-aos-duration="1500">
+            <button
+              class="billing-option is-active"
+              data-cycle="monthly"
+              role="tab"
+              aria-selected="true"
+            >
+              Monthly
+            </button>
+
+            <button
+              class="billing-option"
+              data-cycle="yearly"
+              role="tab"
+              aria-selected="false"
+            >
+              Yearly
+            </button>
+          </div>
+          <div class="pricing-cards" id="pricing">
+            <!-- FREE -->
+            <div class="pricing-card glass"data-aos="flip-right">
+              <figure class="plan-icon">
+                <img src="./assets/pricing/free-label.svg" alt="free-label" />
+              </figure>
+              <h3 class="price">Free Plan</h3>
+              <hr />
+              <p class="plan-description">
+                Start budgeting with essential features.
+              </p>
+              <div class="plan-features">
+                <p class="features-title">Includes:</p>
+                <ul class="features-list">
+                  <li class="feature-item">
+                    <figure>
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.0003 7.09522C15.3403 7.46445 16.0003 9.09106 16.0003 9.97921C16.0003 10.2439 15.895 10.4977 15.7074 10.6848C15.5199 10.872 15.2655 10.9771 15.0003 10.9771C14.7351 10.9771 14.4807 10.872 14.2932 10.6848C14.1057 10.4977 14.0003 10.2439 14.0003 9.97921C14.0003 9.79958 13.8203 8.98129 12.0003 8.98129C10.1803 8.98129 10.0003 9.79958 10.0003 9.97921C10.0003 10.1588 10.1603 10.9771 12.0003 10.9771C15.1603 10.9771 16.0003 12.973 16.0003 13.9709C16.0003 14.9688 15.3403 16.5156 13.0003 16.8848V17.9626C13.0003 18.2272 12.895 18.4811 12.7074 18.6682C12.5199 18.8554 12.2655 18.9605 12.0003 18.9605C11.7351 18.9605 11.4807 18.8554 11.2932 18.6682C11.1057 18.4811 11.0003 18.2272 11.0003 17.9626V16.8848C10.5294 16.8368 10.0729 16.6956 9.65737 16.4694C9.24185 16.2432 8.87569 15.9366 8.58032 15.5676C8.22566 15.1083 8.02296 14.5503 8.00032 13.9709C8.00032 13.7062 8.10568 13.4524 8.29321 13.2653C8.48075 13.0781 8.7351 12.973 9.00032 12.973C9.26554 12.973 9.51989 13.0781 9.70743 13.2653C9.89496 13.4524 10.0003 13.7062 10.0003 13.9709C10.0003 14.1106 10.1603 14.9688 12.0003 14.9688C14.0003 14.9688 14.0003 13.9709 14.0003 13.9709C14.0003 13.9709 13.8403 12.973 12.0003 12.973C8.84032 12.973 8.00032 10.9771 8.00032 9.97921C8.00032 8.98129 8.66032 7.46445 11.0003 7.09522V5.98752C11.0003 5.72286 11.1057 5.46903 11.2932 5.28189C11.4807 5.09474 11.7351 4.9896 12.0003 4.9896C12.2655 4.9896 12.5199 5.09474 12.7074 5.28189C12.895 5.46903 13.0003 5.72286 13.0003 5.98752V7.09522ZM17.0003 6.98544C17.1319 6.9862 17.2624 6.96103 17.3842 6.91137C17.5061 6.86171 17.6169 6.78854 17.7103 6.69605L21.0003 3.40291V4.9896C21.0003 5.25427 21.1057 5.50809 21.2932 5.69524C21.4807 5.88239 21.7351 5.98752 22.0003 5.98752C22.2655 5.98752 22.5199 5.88239 22.7074 5.69524C22.895 5.50809 23.0003 5.25427 23.0003 4.9896V0.997921C22.9987 0.867515 22.9716 0.738683 22.9203 0.618711C22.8188 0.374869 22.6247 0.181097 22.3803 0.0798336C22.2601 0.0286992 22.131 0.0015767 22.0003 0H18.0003C17.7351 0 17.4807 0.105138 17.2932 0.292284C17.1057 0.479431 17.0003 0.733256 17.0003 0.997921C17.0003 1.26259 17.1057 1.51641 17.2932 1.70356C17.4807 1.8907 17.7351 1.99584 18.0003 1.99584H19.5903L16.2903 5.279C16.1966 5.37177 16.1222 5.48214 16.0714 5.60375C16.0207 5.72535 15.9945 5.85579 15.9945 5.98752C15.9945 6.11926 16.0207 6.24969 16.0714 6.3713C16.1222 6.49291 16.1966 6.60328 16.2903 6.69605C16.3838 6.78854 16.4946 6.86171 16.6164 6.91137C16.7382 6.96103 16.8687 6.9862 17.0003 6.98544ZM23.8003 9.79958C23.7526 9.53491 23.6014 9.30002 23.3801 9.14656C23.1588 8.9931 22.8855 8.93365 22.6203 8.98129C22.3551 9.02892 22.1197 9.17975 21.9659 9.40058C21.8121 9.62142 21.7526 9.89417 21.8003 10.1588C22.1747 12.1775 21.9161 14.2623 21.0598 16.1289C20.2035 17.9955 18.7911 19.5532 17.0152 20.5895C15.2393 21.6258 13.1864 22.0903 11.1363 21.9197C9.08615 21.7491 7.13866 20.9516 5.55932 19.6361C3.97998 18.3206 2.84564 16.551 2.31097 14.5686C1.7763 12.5862 1.86732 10.4875 2.57161 8.55858C3.27591 6.62969 4.55921 4.96451 6.24654 3.79006C7.93386 2.61562 9.94311 1.98907 12.0003 1.99584C12.3035 1.98066 12.6072 1.98066 12.9103 1.99584C13.168 2.02147 13.4256 1.94634 13.6289 1.78627C13.8322 1.62621 13.9653 1.39368 14.0003 1.13763C14.0127 1.00648 13.9989 0.874185 13.9598 0.748375C13.9207 0.622565 13.857 0.50573 13.7724 0.404609C13.6878 0.303488 13.5839 0.220082 13.4669 0.159202C13.3498 0.098322 13.2218 0.0611726 13.0903 0.0498962H12.0003C9.5335 0.0498302 7.1266 0.808425 5.1073 2.2224C3.08801 3.63637 1.55446 5.63701 0.715435 7.95194C-0.12359 10.2669 -0.227315 12.7836 0.418383 15.1594C1.06408 17.5353 2.42782 19.6549 4.32394 21.2295C6.22006 22.8042 8.55641 23.7575 11.0149 23.9596C13.4734 24.1617 15.9346 23.6027 18.0633 22.3589C20.1921 21.1151 21.885 19.2468 22.9115 17.0083C23.9381 14.7699 24.2485 12.2702 23.8003 9.84948V9.79958Z"
+                        />
+                      </svg>
+                    </figure>
+                    Track daily expenses
+                  </li>
+                  <li class="feature-item">
+                    <figure>
+                      <svg
+                        width="20"
+                        height="22"
+                        viewBox="0 0 20 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.9366 10.6833V10.1665C11.9366 10.1174 11.9216 10.0722 11.8876 10.0382C11.5557 9.68365 11.2199 9.20458 10.8918 8.61613C10.5636 8.0239 10.3033 7.40903 10.126 6.78285C9.99775 6.34528 9.91477 5.85868 9.87704 5.33812C9.87327 5.24004 9.79028 5.1646 9.68844 5.1646H9.00945C8.95664 5.1646 8.91137 5.18346 8.87365 5.21741C8.84 5.25467 8.8212 5.303 8.82084 5.35321C8.82838 5.79455 8.91514 6.32642 9.07734 6.94129C9.24298 7.55945 9.47836 8.15677 9.77897 8.72175C10.0091 9.148 10.2505 9.52899 10.4994 9.85717H8.25501C8.14939 9.85717 8.06641 9.94015 8.06641 10.0458V10.6833C8.06641 10.7851 8.14939 10.8719 8.25501 10.8719H11.748C11.8537 10.8719 11.9366 10.7851 11.9366 10.6833Z"
+                        />
+                        <path
+                          d="M18.8412 21.1052H18.4191V20.8186C18.4191 20.6941 18.3357 20.596 18.2226 20.596H17.5666C17.4568 20.596 17.37 20.6941 17.37 20.8186V20.8223H15.2614V20.8186C15.2614 20.6941 15.1784 20.596 15.0649 20.596H14.4085C14.2995 20.596 14.2124 20.6941 14.2124 20.8186V20.8223H12.1037V20.8186C12.1037 20.6941 12.0204 20.596 11.9038 20.596H11.252C11.1384 20.596 11.0521 20.6941 11.0521 20.8186V20.8223H8.94719V20.8186C8.94719 20.6941 8.8642 20.596 8.74726 20.596H8.09468C7.98152 20.596 7.89476 20.6941 7.89476 20.8186V20.8223H5.78612V20.8186C5.78612 20.6941 5.70275 20.596 5.58997 20.596H4.93361C4.82384 20.596 4.73708 20.6941 4.73708 20.8186V20.8223H2.62844V20.8186C2.62844 20.6941 2.54545 20.596 2.43191 20.596H1.77631C1.66692 20.596 1.57978 20.6941 1.57978 20.8186V21.1052H1.15805C0.516409 21.1052 0 20.4942 0 19.7435V1.56167C0 0.701622 0.6639 0 1.47869 0H18.5213C19.3361 0 20 0.701622 20 1.56167V19.7435C19.9996 20.4942 19.4832 21.1052 18.8412 21.1052ZM13.4055 19.023C13.4055 19.1135 13.4998 19.1852 13.602 19.1852H15.1452C15.2542 19.1852 15.3414 19.1135 15.3414 19.023V18.7854C15.3414 18.6986 15.2546 18.6232 15.1452 18.6232H14.1226V18.0951H14.9336C15.043 18.0951 15.1298 18.0196 15.1298 17.9329V17.6952C15.1298 17.6047 15.0434 17.5368 14.9336 17.5368H14.1226V16.8163H15.1452C15.2542 16.8163 15.3414 16.7446 15.3414 16.6541V16.4202C15.3414 16.3297 15.2546 16.258 15.1452 16.258H13.602C13.4998 16.258 13.4055 16.3297 13.4055 16.4202V19.023ZM10.4221 19.023C10.4221 19.1135 10.5085 19.1852 10.6186 19.1852H11.0185C11.1015 19.1852 11.1769 19.1399 11.1992 19.0796L11.7503 17.7971V19.023C11.7503 19.1135 11.8404 19.1852 11.9498 19.1852H12.2629C12.3761 19.1852 12.4625 19.1135 12.4625 19.023V16.4202C12.4625 16.3297 12.3761 16.258 12.2629 16.258H11.8706C11.7876 16.258 11.708 16.2995 11.6862 16.3674L11.1313 17.6537V16.4202C11.1313 16.3297 11.0445 16.258 10.9351 16.258H10.6183C10.5085 16.258 10.4217 16.3297 10.4217 16.4202L10.4221 19.023ZM7.63108 19.023C7.63108 19.1135 7.72124 19.1852 7.83063 19.1852H8.14372C8.25688 19.1852 8.34327 19.1135 8.34327 19.023V17.1332C8.34327 16.8163 8.44172 16.7937 8.60355 16.7937C8.74689 16.7937 8.86382 16.8201 8.86382 17.1332V19.023C8.86382 19.1135 8.94681 19.1852 9.05998 19.1852H9.37684C9.48661 19.1852 9.57337 19.1135 9.57337 19.023V17.0539C9.57337 16.556 9.17729 16.2241 8.60392 16.2241C8.02301 16.2241 7.63108 16.5522 7.63108 17.0426V19.023ZM4.65824 17.367C4.65824 17.4538 4.74877 17.5255 4.85439 17.5255H5.17541C5.28103 17.5255 5.37193 17.4538 5.37193 17.367V17.0992C5.37193 17.0087 5.39457 16.7937 5.64353 16.7937C5.88834 16.7937 5.90004 17.0766 5.90004 17.1369V19.023C5.90004 19.1135 5.98642 19.1852 6.09657 19.1852H6.41343C6.52244 19.1852 6.60958 19.1135 6.60958 19.023V17.1143C6.60958 16.4994 6.09694 16.2241 5.62165 16.2241C5.14221 16.2241 4.65937 16.4994 4.65937 17.1218V17.367H4.65824ZM19.2716 1.56167C19.2716 1.10147 18.9355 0.728027 18.5209 0.728027H1.47831C1.06337 0.728027 0.72765 1.10147 0.72765 1.56167V14.0739H19.2716V1.56167ZM18.4191 21.2939V21.1052H1.58016V21.2939C1.58016 21.4183 1.66692 21.5164 1.77669 21.5164H2.43267C2.54621 21.5164 2.6292 21.4183 2.6292 21.2939V21.2637H4.73783V21.2939C4.73783 21.4183 4.82422 21.5164 4.93436 21.5164H5.59072C5.70351 21.5164 5.78687 21.4183 5.78687 21.2939V21.2637H7.89551V21.2939C7.89551 21.4183 7.98227 21.5164 8.09544 21.5164H8.74764C8.86496 21.5164 8.94757 21.4183 8.94757 21.2939V21.2637H11.0524V21.2939C11.0524 21.4183 11.1388 21.5164 11.2524 21.5164H11.9046C12.0215 21.5164 12.1045 21.4183 12.1045 21.2939V21.2637H14.2131V21.2939C14.2131 21.4183 14.2999 21.5164 14.4093 21.5164H15.0656C15.1792 21.5164 15.2622 21.4183 15.2622 21.2939V21.2637H17.3708V21.2939C17.3708 21.4183 17.4572 21.5164 17.5673 21.5164H18.2229C18.3361 21.5164 18.4191 21.4183 18.4191 21.2939Z"
+                        />
+                      </svg>
+                    </figure>
+                    Basic monthly budget
+                  </li>
+                  <li class="feature-item">
+                    <figure>
+                      <svg
+                        width="23"
+                        height="23"
+                        viewBox="0 0 23 23"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M20.4317 23H15.2183C13.8 23 12.65 21.85 12.65 20.4317V13.4167C12.65 12.995 12.995 12.65 13.4167 12.65H20.4317C21.85 12.65 23 13.8 23 15.2183V20.4317C23 21.85 21.85 23 20.4317 23ZM14.1833 14.1833V20.4317C14.1833 21.0067 14.6433 21.4667 15.2183 21.4667H20.4317C21.0067 21.4667 21.4667 21.0067 21.4667 20.4317V15.2183C21.4667 14.6433 21.0067 14.1833 20.4317 14.1833H14.1833ZM7.78167 23H2.56833C1.15 23 0 21.85 0 20.4317V15.2183C0 13.8 1.15 12.65 2.56833 12.65H9.58333C10.005 12.65 10.35 12.995 10.35 13.4167V20.4317C10.35 21.85 9.2 23 7.78167 23ZM2.56833 14.1833C1.99333 14.1833 1.53333 14.6433 1.53333 15.2183V20.4317C1.53333 21.0067 1.99333 21.4667 2.56833 21.4667H7.78167C8.35667 21.4667 8.81667 21.0067 8.81667 20.4317V14.1833H2.56833ZM20.4317 10.35H13.4167C12.995 10.35 12.65 10.005 12.65 9.58333V2.56833C12.65 1.15 13.8 0 15.2183 0H20.4317C21.85 0 23 1.15 23 2.56833V7.78167C23 9.2 21.85 10.35 20.4317 10.35ZM14.1833 8.81667H20.4317C21.0067 8.81667 21.4667 8.35667 21.4667 7.78167V2.56833C21.4667 1.99333 21.0067 1.53333 20.4317 1.53333H15.2183C14.6433 1.53333 14.1833 1.99333 14.1833 2.56833V8.81667ZM9.58333 10.35H2.56833C1.15 10.35 0 9.2 0 7.78167V2.56833C0 1.15 1.15 0 2.56833 0H7.78167C9.2 0 10.35 1.15 10.35 2.56833V9.58333C10.35 10.005 10.005 10.35 9.58333 10.35ZM2.56833 1.53333C1.99333 1.53333 1.53333 1.99333 1.53333 2.56833V7.78167C1.53333 8.35667 1.99333 8.81667 2.56833 8.81667H8.81667V2.56833C8.81667 1.99333 8.35667 1.53333 7.78167 1.53333H2.56833Z"
+                        />
+                      </svg>
+                    </figure>
+                    Add unlimited categories
+                  </li>
+                  <li class="feature-item">
+                    <figure>
+                      <svg
+                        width="22"
+                        height="22"
+                        viewBox="0 0 22 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M21.9906 19.1872C21.9298 18.4992 21.6047 17.876 21.0759 17.4331L15.5169 12.7641C16.3039 11.4878 16.7587 9.98569 16.7587 8.37933C16.759 7.68611 16.6732 6.99554 16.5032 6.32349L17.8592 4.96752C18.1192 5.09222 18.404 5.15681 18.6924 5.1565C19.7586 5.1565 20.6261 4.28906 20.6261 3.22279C20.6261 2.15652 19.7586 1.28911 18.6924 1.28911C17.6262 1.28911 16.7587 2.15656 16.7587 3.22283C16.7584 3.51121 16.823 3.79596 16.9477 4.05598L16.0333 4.9704C14.7248 2.04423 11.7865 0 8.37933 0C3.75897 0 0 3.75897 0 8.37937C0 12.9998 3.75897 16.7587 8.37937 16.7587C9.98574 16.7587 11.4878 16.304 12.7642 15.517L17.4354 21.0787C17.5343 21.1951 17.6446 21.3052 17.7545 21.3973C18.2243 21.7907 18.8049 22.001 19.4104 22.001C19.4874 22.001 19.5649 21.9976 19.6425 21.9907C20.3305 21.9299 20.9537 21.6048 21.3972 21.0753C21.8407 20.5458 22.0514 19.8752 21.9906 19.1872ZM18.6924 2.57827C19.0478 2.57827 19.337 2.86742 19.337 3.22283C19.337 3.57824 19.0478 3.86739 18.6924 3.86739C18.337 3.86739 18.0479 3.57824 18.0479 3.22283C18.0479 2.86742 18.337 2.57827 18.6924 2.57827ZM8.37933 15.4782C4.46979 15.4782 1.28052 12.2975 1.28052 8.38797C1.28052 4.47843 4.46979 1.28052 8.37933 1.28052C11.4395 1.28052 14.0529 3.23791 15.0441 5.95953L13.0799 7.92376C12.8274 7.80271 12.5449 7.73477 12.2467 7.73477C11.9485 7.73477 11.666 7.80271 11.4136 7.92376L10.1241 6.63426C10.2488 6.37422 10.3134 6.08948 10.313 5.8011C10.313 4.73487 9.4456 3.86739 8.37933 3.86739C7.31306 3.86739 6.44562 4.73483 6.44562 5.8011C6.4453 6.08948 6.50989 6.37423 6.6346 6.63426L5.34514 7.92376C5.0851 7.79905 4.80034 7.73446 4.51194 7.73477C3.44572 7.73477 2.57823 8.60222 2.57823 9.66849C2.57823 10.7347 3.44567 11.6022 4.51194 11.6022C5.57817 11.6022 6.44566 10.7348 6.44566 9.66849C6.44597 9.38011 6.38138 9.09536 6.25667 8.83533L7.54613 7.54583C7.79863 7.66688 8.08116 7.73482 8.37933 7.73482C8.6775 7.73482 8.96003 7.66688 9.21248 7.54583L10.5019 8.83533C10.3773 9.09536 10.3127 9.38011 10.313 9.66849C10.313 10.7347 11.1804 11.6022 12.2467 11.6022C13.313 11.6022 14.1804 10.7348 14.1804 9.66849C14.1807 9.38011 14.1162 9.09536 13.9914 8.83533L15.4047 7.42208C15.4478 7.73935 15.4695 8.05918 15.4695 8.37937C15.4696 12.2889 12.2889 15.4782 8.37933 15.4782ZM12.8913 9.66849C12.8913 10.0239 12.6022 10.313 12.2468 10.313C11.8914 10.313 11.6022 10.0239 11.6022 9.66849C11.6022 9.31308 11.8914 9.02393 12.2468 9.02393C12.6022 9.02393 12.8913 9.31308 12.8913 9.66849ZM9.02389 5.8011C9.02389 6.15651 8.73474 6.44566 8.37933 6.44566C8.02392 6.44566 7.73477 6.15651 7.73477 5.8011C7.73477 5.44569 8.02392 5.15654 8.37933 5.15654C8.73474 5.15654 9.02389 5.44569 9.02389 5.8011ZM5.1565 9.66849C5.1565 10.0239 4.86735 10.313 4.51194 10.313C4.15653 10.313 3.86739 10.0239 3.86739 9.66849C3.86739 9.31308 4.15653 9.02393 4.51194 9.02393C4.86735 9.02393 5.1565 9.31308 5.1565 9.66849ZM14.6369 15.7423L13.8087 14.7563C14.1491 14.466 14.466 14.1492 14.7562 13.8088L15.7423 14.6369C15.404 15.0344 15.0344 15.4041 14.6369 15.7423ZM20.4089 20.2475C20.1865 20.513 19.874 20.676 19.529 20.7065C19.1838 20.7369 18.8478 20.6313 18.5822 20.4088C18.5287 20.3641 18.4689 20.304 18.4202 20.2467L15.4665 16.73C15.9211 16.3436 16.3436 15.9211 16.73 15.4665L20.2474 18.4208C20.5129 18.6431 20.6759 18.9556 20.7064 19.3006C20.737 19.6457 20.6313 19.9819 20.4089 20.2475Z"
+                        />
+                      </svg>
+                    </figure>
+                    Simple analytics
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-primary">Get Started Free</a>
+            </div>
+
+            <!-- PRO -->
+            <div class="pricing-card glass is-featured"data-aos="flip-left">
+              <figure class="plan-icon">
+                <img src="./assets/pricing/pro-label.svg" alt="pro-label" />
+              </figure>
+              <h3
+                class="price"
+                data-monthly="Pro Plan – ₹199/month"
+                data-yearly="Pro Plan – ₹1999/year"
+              >
+                Pro Plan – ₹199/month
+              </h3>
+              <hr />
+              <p class="plan-description">
+                Start budgeting with essential features.
+              </p>
+              <div class="plan-features">
+                <p class="features-title">Includes:</p>
+                <ul class="features-list">
+                  <li class="feature-item">
+                    <figure>
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.0003 7.09522C15.3403 7.46445 16.0003 9.09106 16.0003 9.97921C16.0003 10.2439 15.895 10.4977 15.7074 10.6848C15.5199 10.872 15.2655 10.9771 15.0003 10.9771C14.7351 10.9771 14.4807 10.872 14.2932 10.6848C14.1057 10.4977 14.0003 10.2439 14.0003 9.97921C14.0003 9.79958 13.8203 8.98129 12.0003 8.98129C10.1803 8.98129 10.0003 9.79958 10.0003 9.97921C10.0003 10.1588 10.1603 10.9771 12.0003 10.9771C15.1603 10.9771 16.0003 12.973 16.0003 13.9709C16.0003 14.9688 15.3403 16.5156 13.0003 16.8848V17.9626C13.0003 18.2272 12.895 18.4811 12.7074 18.6682C12.5199 18.8554 12.2655 18.9605 12.0003 18.9605C11.7351 18.9605 11.4807 18.8554 11.2932 18.6682C11.1057 18.4811 11.0003 18.2272 11.0003 17.9626V16.8848C10.5294 16.8368 10.0729 16.6956 9.65737 16.4694C9.24185 16.2432 8.87569 15.9366 8.58032 15.5676C8.22566 15.1083 8.02296 14.5503 8.00032 13.9709C8.00032 13.7062 8.10568 13.4524 8.29321 13.2653C8.48075 13.0781 8.7351 12.973 9.00032 12.973C9.26554 12.973 9.51989 13.0781 9.70743 13.2653C9.89496 13.4524 10.0003 13.7062 10.0003 13.9709C10.0003 14.1106 10.1603 14.9688 12.0003 14.9688C14.0003 14.9688 14.0003 13.9709 14.0003 13.9709C14.0003 13.9709 13.8403 12.973 12.0003 12.973C8.84032 12.973 8.00032 10.9771 8.00032 9.97921C8.00032 8.98129 8.66032 7.46445 11.0003 7.09522V5.98752C11.0003 5.72286 11.1057 5.46903 11.2932 5.28189C11.4807 5.09474 11.7351 4.9896 12.0003 4.9896C12.2655 4.9896 12.5199 5.09474 12.7074 5.28189C12.895 5.46903 13.0003 5.72286 13.0003 5.98752V7.09522ZM17.0003 6.98544C17.1319 6.9862 17.2624 6.96103 17.3842 6.91137C17.5061 6.86171 17.6169 6.78854 17.7103 6.69605L21.0003 3.40291V4.9896C21.0003 5.25427 21.1057 5.50809 21.2932 5.69524C21.4807 5.88239 21.7351 5.98752 22.0003 5.98752C22.2655 5.98752 22.5199 5.88239 22.7074 5.69524C22.895 5.50809 23.0003 5.25427 23.0003 4.9896V0.997921C22.9987 0.867515 22.9716 0.738683 22.9203 0.618711C22.8188 0.374869 22.6247 0.181097 22.3803 0.0798336C22.2601 0.0286992 22.131 0.0015767 22.0003 0H18.0003C17.7351 0 17.4807 0.105138 17.2932 0.292284C17.1057 0.479431 17.0003 0.733256 17.0003 0.997921C17.0003 1.26259 17.1057 1.51641 17.2932 1.70356C17.4807 1.8907 17.7351 1.99584 18.0003 1.99584H19.5903L16.2903 5.279C16.1966 5.37177 16.1222 5.48214 16.0714 5.60375C16.0207 5.72535 15.9945 5.85579 15.9945 5.98752C15.9945 6.11926 16.0207 6.24969 16.0714 6.3713C16.1222 6.49291 16.1966 6.60328 16.2903 6.69605C16.3838 6.78854 16.4946 6.86171 16.6164 6.91137C16.7382 6.96103 16.8687 6.9862 17.0003 6.98544ZM23.8003 9.79958C23.7526 9.53491 23.6014 9.30002 23.3801 9.14656C23.1588 8.9931 22.8855 8.93365 22.6203 8.98129C22.3551 9.02892 22.1197 9.17975 21.9659 9.40058C21.8121 9.62142 21.7526 9.89417 21.8003 10.1588C22.1747 12.1775 21.9161 14.2623 21.0598 16.1289C20.2035 17.9955 18.7911 19.5532 17.0152 20.5895C15.2393 21.6258 13.1864 22.0903 11.1363 21.9197C9.08615 21.7491 7.13866 20.9516 5.55932 19.6361C3.97998 18.3206 2.84564 16.551 2.31097 14.5686C1.7763 12.5862 1.86732 10.4875 2.57161 8.55858C3.27591 6.62969 4.55921 4.96451 6.24654 3.79006C7.93386 2.61562 9.94311 1.98907 12.0003 1.99584C12.3035 1.98066 12.6072 1.98066 12.9103 1.99584C13.168 2.02147 13.4256 1.94634 13.6289 1.78627C13.8322 1.62621 13.9653 1.39368 14.0003 1.13763C14.0127 1.00648 13.9989 0.874185 13.9598 0.748375C13.9207 0.622565 13.857 0.50573 13.7724 0.404609C13.6878 0.303488 13.5839 0.220082 13.4669 0.159202C13.3498 0.098322 13.2218 0.0611726 13.0903 0.0498962H12.0003C9.5335 0.0498302 7.1266 0.808425 5.1073 2.2224C3.08801 3.63637 1.55446 5.63701 0.715435 7.95194C-0.12359 10.2669 -0.227315 12.7836 0.418383 15.1594C1.06408 17.5353 2.42782 19.6549 4.32394 21.2295C6.22006 22.8042 8.55641 23.7575 11.0149 23.9596C13.4734 24.1617 15.9346 23.6027 18.0633 22.3589C20.1921 21.1151 21.885 19.2468 22.9115 17.0083C23.9381 14.7699 24.2485 12.2702 23.8003 9.84948V9.79958Z"
+                        />
+                      </svg>
+                    </figure>
+                    Track daily expenses
+                  </li>
+                  <li class="feature-item">
+                    <figure>
+                      <svg
+                        width="20"
+                        height="22"
+                        viewBox="0 0 20 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.9366 10.6833V10.1665C11.9366 10.1174 11.9216 10.0722 11.8876 10.0382C11.5557 9.68365 11.2199 9.20458 10.8918 8.61613C10.5636 8.0239 10.3033 7.40903 10.126 6.78285C9.99775 6.34528 9.91477 5.85868 9.87704 5.33812C9.87327 5.24004 9.79028 5.1646 9.68844 5.1646H9.00945C8.95664 5.1646 8.91137 5.18346 8.87365 5.21741C8.84 5.25467 8.8212 5.303 8.82084 5.35321C8.82838 5.79455 8.91514 6.32642 9.07734 6.94129C9.24298 7.55945 9.47836 8.15677 9.77897 8.72175C10.0091 9.148 10.2505 9.52899 10.4994 9.85717H8.25501C8.14939 9.85717 8.06641 9.94015 8.06641 10.0458V10.6833C8.06641 10.7851 8.14939 10.8719 8.25501 10.8719H11.748C11.8537 10.8719 11.9366 10.7851 11.9366 10.6833Z"
+                        />
+                        <path
+                          d="M18.8412 21.1052H18.4191V20.8186C18.4191 20.6941 18.3357 20.596 18.2226 20.596H17.5666C17.4568 20.596 17.37 20.6941 17.37 20.8186V20.8223H15.2614V20.8186C15.2614 20.6941 15.1784 20.596 15.0649 20.596H14.4085C14.2995 20.596 14.2124 20.6941 14.2124 20.8186V20.8223H12.1037V20.8186C12.1037 20.6941 12.0204 20.596 11.9038 20.596H11.252C11.1384 20.596 11.0521 20.6941 11.0521 20.8186V20.8223H8.94719V20.8186C8.94719 20.6941 8.8642 20.596 8.74726 20.596H8.09468C7.98152 20.596 7.89476 20.6941 7.89476 20.8186V20.8223H5.78612V20.8186C5.78612 20.6941 5.70275 20.596 5.58997 20.596H4.93361C4.82384 20.596 4.73708 20.6941 4.73708 20.8186V20.8223H2.62844V20.8186C2.62844 20.6941 2.54545 20.596 2.43191 20.596H1.77631C1.66692 20.596 1.57978 20.6941 1.57978 20.8186V21.1052H1.15805C0.516409 21.1052 0 20.4942 0 19.7435V1.56167C0 0.701622 0.6639 0 1.47869 0H18.5213C19.3361 0 20 0.701622 20 1.56167V19.7435C19.9996 20.4942 19.4832 21.1052 18.8412 21.1052ZM13.4055 19.023C13.4055 19.1135 13.4998 19.1852 13.602 19.1852H15.1452C15.2542 19.1852 15.3414 19.1135 15.3414 19.023V18.7854C15.3414 18.6986 15.2546 18.6232 15.1452 18.6232H14.1226V18.0951H14.9336C15.043 18.0951 15.1298 18.0196 15.1298 17.9329V17.6952C15.1298 17.6047 15.0434 17.5368 14.9336 17.5368H14.1226V16.8163H15.1452C15.2542 16.8163 15.3414 16.7446 15.3414 16.6541V16.4202C15.3414 16.3297 15.2546 16.258 15.1452 16.258H13.602C13.4998 16.258 13.4055 16.3297 13.4055 16.4202V19.023ZM10.4221 19.023C10.4221 19.1135 10.5085 19.1852 10.6186 19.1852H11.0185C11.1015 19.1852 11.1769 19.1399 11.1992 19.0796L11.7503 17.7971V19.023C11.7503 19.1135 11.8404 19.1852 11.9498 19.1852H12.2629C12.3761 19.1852 12.4625 19.1135 12.4625 19.023V16.4202C12.4625 16.3297 12.3761 16.258 12.2629 16.258H11.8706C11.7876 16.258 11.708 16.2995 11.6862 16.3674L11.1313 17.6537V16.4202C11.1313 16.3297 11.0445 16.258 10.9351 16.258H10.6183C10.5085 16.258 10.4217 16.3297 10.4217 16.4202L10.4221 19.023ZM7.63108 19.023C7.63108 19.1135 7.72124 19.1852 7.83063 19.1852H8.14372C8.25688 19.1852 8.34327 19.1135 8.34327 19.023V17.1332C8.34327 16.8163 8.44172 16.7937 8.60355 16.7937C8.74689 16.7937 8.86382 16.8201 8.86382 17.1332V19.023C8.86382 19.1135 8.94681 19.1852 9.05998 19.1852H9.37684C9.48661 19.1852 9.57337 19.1135 9.57337 19.023V17.0539C9.57337 16.556 9.17729 16.2241 8.60392 16.2241C8.02301 16.2241 7.63108 16.5522 7.63108 17.0426V19.023ZM4.65824 17.367C4.65824 17.4538 4.74877 17.5255 4.85439 17.5255H5.17541C5.28103 17.5255 5.37193 17.4538 5.37193 17.367V17.0992C5.37193 17.0087 5.39457 16.7937 5.64353 16.7937C5.88834 16.7937 5.90004 17.0766 5.90004 17.1369V19.023C5.90004 19.1135 5.98642 19.1852 6.09657 19.1852H6.41343C6.52244 19.1852 6.60958 19.1135 6.60958 19.023V17.1143C6.60958 16.4994 6.09694 16.2241 5.62165 16.2241C5.14221 16.2241 4.65937 16.4994 4.65937 17.1218V17.367H4.65824ZM19.2716 1.56167C19.2716 1.10147 18.9355 0.728027 18.5209 0.728027H1.47831C1.06337 0.728027 0.72765 1.10147 0.72765 1.56167V14.0739H19.2716V1.56167ZM18.4191 21.2939V21.1052H1.58016V21.2939C1.58016 21.4183 1.66692 21.5164 1.77669 21.5164H2.43267C2.54621 21.5164 2.6292 21.4183 2.6292 21.2939V21.2637H4.73783V21.2939C4.73783 21.4183 4.82422 21.5164 4.93436 21.5164H5.59072C5.70351 21.5164 5.78687 21.4183 5.78687 21.2939V21.2637H7.89551V21.2939C7.89551 21.4183 7.98227 21.5164 8.09544 21.5164H8.74764C8.86496 21.5164 8.94757 21.4183 8.94757 21.2939V21.2637H11.0524V21.2939C11.0524 21.4183 11.1388 21.5164 11.2524 21.5164H11.9046C12.0215 21.5164 12.1045 21.4183 12.1045 21.2939V21.2637H14.2131V21.2939C14.2131 21.4183 14.2999 21.5164 14.4093 21.5164H15.0656C15.1792 21.5164 15.2622 21.4183 15.2622 21.2939V21.2637H17.3708V21.2939C17.3708 21.4183 17.4572 21.5164 17.5673 21.5164H18.2229C18.3361 21.5164 18.4191 21.4183 18.4191 21.2939Z"
+                        />
+                      </svg>
+                    </figure>
+                    Basic monthly budget
+                  </li>
+                  <li class="feature-item">
+                    <figure>
+                      <svg
+                        width="23"
+                        height="23"
+                        viewBox="0 0 23 23"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M20.4317 23H15.2183C13.8 23 12.65 21.85 12.65 20.4317V13.4167C12.65 12.995 12.995 12.65 13.4167 12.65H20.4317C21.85 12.65 23 13.8 23 15.2183V20.4317C23 21.85 21.85 23 20.4317 23ZM14.1833 14.1833V20.4317C14.1833 21.0067 14.6433 21.4667 15.2183 21.4667H20.4317C21.0067 21.4667 21.4667 21.0067 21.4667 20.4317V15.2183C21.4667 14.6433 21.0067 14.1833 20.4317 14.1833H14.1833ZM7.78167 23H2.56833C1.15 23 0 21.85 0 20.4317V15.2183C0 13.8 1.15 12.65 2.56833 12.65H9.58333C10.005 12.65 10.35 12.995 10.35 13.4167V20.4317C10.35 21.85 9.2 23 7.78167 23ZM2.56833 14.1833C1.99333 14.1833 1.53333 14.6433 1.53333 15.2183V20.4317C1.53333 21.0067 1.99333 21.4667 2.56833 21.4667H7.78167C8.35667 21.4667 8.81667 21.0067 8.81667 20.4317V14.1833H2.56833ZM20.4317 10.35H13.4167C12.995 10.35 12.65 10.005 12.65 9.58333V2.56833C12.65 1.15 13.8 0 15.2183 0H20.4317C21.85 0 23 1.15 23 2.56833V7.78167C23 9.2 21.85 10.35 20.4317 10.35ZM14.1833 8.81667H20.4317C21.0067 8.81667 21.4667 8.35667 21.4667 7.78167V2.56833C21.4667 1.99333 21.0067 1.53333 20.4317 1.53333H15.2183C14.6433 1.53333 14.1833 1.99333 14.1833 2.56833V8.81667ZM9.58333 10.35H2.56833C1.15 10.35 0 9.2 0 7.78167V2.56833C0 1.15 1.15 0 2.56833 0H7.78167C9.2 0 10.35 1.15 10.35 2.56833V9.58333C10.35 10.005 10.005 10.35 9.58333 10.35ZM2.56833 1.53333C1.99333 1.53333 1.53333 1.99333 1.53333 2.56833V7.78167C1.53333 8.35667 1.99333 8.81667 2.56833 8.81667H8.81667V2.56833C8.81667 1.99333 8.35667 1.53333 7.78167 1.53333H2.56833Z"
+                        />
+                      </svg>
+                    </figure>
+                    Add unlimited categories
+                  </li>
+                  <li class="feature-item">
+                    <figure>
+                      <svg
+                        width="22"
+                        height="22"
+                        viewBox="0 0 22 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M21.9906 19.1872C21.9298 18.4992 21.6047 17.876 21.0759 17.4331L15.5169 12.7641C16.3039 11.4878 16.7587 9.98569 16.7587 8.37933C16.759 7.68611 16.6732 6.99554 16.5032 6.32349L17.8592 4.96752C18.1192 5.09222 18.404 5.15681 18.6924 5.1565C19.7586 5.1565 20.6261 4.28906 20.6261 3.22279C20.6261 2.15652 19.7586 1.28911 18.6924 1.28911C17.6262 1.28911 16.7587 2.15656 16.7587 3.22283C16.7584 3.51121 16.823 3.79596 16.9477 4.05598L16.0333 4.9704C14.7248 2.04423 11.7865 0 8.37933 0C3.75897 0 0 3.75897 0 8.37937C0 12.9998 3.75897 16.7587 8.37937 16.7587C9.98574 16.7587 11.4878 16.304 12.7642 15.517L17.4354 21.0787C17.5343 21.1951 17.6446 21.3052 17.7545 21.3973C18.2243 21.7907 18.8049 22.001 19.4104 22.001C19.4874 22.001 19.5649 21.9976 19.6425 21.9907C20.3305 21.9299 20.9537 21.6048 21.3972 21.0753C21.8407 20.5458 22.0514 19.8752 21.9906 19.1872ZM18.6924 2.57827C19.0478 2.57827 19.337 2.86742 19.337 3.22283C19.337 3.57824 19.0478 3.86739 18.6924 3.86739C18.337 3.86739 18.0479 3.57824 18.0479 3.22283C18.0479 2.86742 18.337 2.57827 18.6924 2.57827ZM8.37933 15.4782C4.46979 15.4782 1.28052 12.2975 1.28052 8.38797C1.28052 4.47843 4.46979 1.28052 8.37933 1.28052C11.4395 1.28052 14.0529 3.23791 15.0441 5.95953L13.0799 7.92376C12.8274 7.80271 12.5449 7.73477 12.2467 7.73477C11.9485 7.73477 11.666 7.80271 11.4136 7.92376L10.1241 6.63426C10.2488 6.37422 10.3134 6.08948 10.313 5.8011C10.313 4.73487 9.4456 3.86739 8.37933 3.86739C7.31306 3.86739 6.44562 4.73483 6.44562 5.8011C6.4453 6.08948 6.50989 6.37423 6.6346 6.63426L5.34514 7.92376C5.0851 7.79905 4.80034 7.73446 4.51194 7.73477C3.44572 7.73477 2.57823 8.60222 2.57823 9.66849C2.57823 10.7347 3.44567 11.6022 4.51194 11.6022C5.57817 11.6022 6.44566 10.7348 6.44566 9.66849C6.44597 9.38011 6.38138 9.09536 6.25667 8.83533L7.54613 7.54583C7.79863 7.66688 8.08116 7.73482 8.37933 7.73482C8.6775 7.73482 8.96003 7.66688 9.21248 7.54583L10.5019 8.83533C10.3773 9.09536 10.3127 9.38011 10.313 9.66849C10.313 10.7347 11.1804 11.6022 12.2467 11.6022C13.313 11.6022 14.1804 10.7348 14.1804 9.66849C14.1807 9.38011 14.1162 9.09536 13.9914 8.83533L15.4047 7.42208C15.4478 7.73935 15.4695 8.05918 15.4695 8.37937C15.4696 12.2889 12.2889 15.4782 8.37933 15.4782ZM12.8913 9.66849C12.8913 10.0239 12.6022 10.313 12.2468 10.313C11.8914 10.313 11.6022 10.0239 11.6022 9.66849C11.6022 9.31308 11.8914 9.02393 12.2468 9.02393C12.6022 9.02393 12.8913 9.31308 12.8913 9.66849ZM9.02389 5.8011C9.02389 6.15651 8.73474 6.44566 8.37933 6.44566C8.02392 6.44566 7.73477 6.15651 7.73477 5.8011C7.73477 5.44569 8.02392 5.15654 8.37933 5.15654C8.73474 5.15654 9.02389 5.44569 9.02389 5.8011ZM5.1565 9.66849C5.1565 10.0239 4.86735 10.313 4.51194 10.313C4.15653 10.313 3.86739 10.0239 3.86739 9.66849C3.86739 9.31308 4.15653 9.02393 4.51194 9.02393C4.86735 9.02393 5.1565 9.31308 5.1565 9.66849ZM14.6369 15.7423L13.8087 14.7563C14.1491 14.466 14.466 14.1492 14.7562 13.8088L15.7423 14.6369C15.404 15.0344 15.0344 15.4041 14.6369 15.7423ZM20.4089 20.2475C20.1865 20.513 19.874 20.676 19.529 20.7065C19.1838 20.7369 18.8478 20.6313 18.5822 20.4088C18.5287 20.3641 18.4689 20.304 18.4202 20.2467L15.4665 16.73C15.9211 16.3436 16.3436 15.9211 16.73 15.4665L20.2474 18.4208C20.5129 18.6431 20.6759 18.9556 20.7064 19.3006C20.737 19.6457 20.6313 19.9819 20.4089 20.2475Z"
+                        />
+                      </svg>
+                    </figure>
+                    Simple analytics
+                  </li>
+                </ul>
+              </div>
+
+              <a href="#" class="btn btn-primary">Upgrade to Pro</a>
+            </div>
+
+            <!-- PREMIUM -->
+            <div class="pricing-card glass"data-aos="flip-right">
+              <figure class="plan-icon">
+                <img
+                  src="./assets/pricing/premium-label.svg"
+                  alt="premium-label"
+                />
+              </figure>
+              <h3
+                class="price"
+                data-monthly="Premium – ₹399/month"
+                data-yearly="Premium – ₹3999/year"
+              >
+                Premium – ₹399/month
+              </h3>
+              <hr />
+              <p class="plan-description">
+                Start budgeting with essential features.
+              </p>
+              <div class="plan-features">
+                <p class="features-title">Includes:</p>
+                <ul class="features-list">
+                  <li class="feature-item">
+                    <figure>
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.0003 7.09522C15.3403 7.46445 16.0003 9.09106 16.0003 9.97921C16.0003 10.2439 15.895 10.4977 15.7074 10.6848C15.5199 10.872 15.2655 10.9771 15.0003 10.9771C14.7351 10.9771 14.4807 10.872 14.2932 10.6848C14.1057 10.4977 14.0003 10.2439 14.0003 9.97921C14.0003 9.79958 13.8203 8.98129 12.0003 8.98129C10.1803 8.98129 10.0003 9.79958 10.0003 9.97921C10.0003 10.1588 10.1603 10.9771 12.0003 10.9771C15.1603 10.9771 16.0003 12.973 16.0003 13.9709C16.0003 14.9688 15.3403 16.5156 13.0003 16.8848V17.9626C13.0003 18.2272 12.895 18.4811 12.7074 18.6682C12.5199 18.8554 12.2655 18.9605 12.0003 18.9605C11.7351 18.9605 11.4807 18.8554 11.2932 18.6682C11.1057 18.4811 11.0003 18.2272 11.0003 17.9626V16.8848C10.5294 16.8368 10.0729 16.6956 9.65737 16.4694C9.24185 16.2432 8.87569 15.9366 8.58032 15.5676C8.22566 15.1083 8.02296 14.5503 8.00032 13.9709C8.00032 13.7062 8.10568 13.4524 8.29321 13.2653C8.48075 13.0781 8.7351 12.973 9.00032 12.973C9.26554 12.973 9.51989 13.0781 9.70743 13.2653C9.89496 13.4524 10.0003 13.7062 10.0003 13.9709C10.0003 14.1106 10.1603 14.9688 12.0003 14.9688C14.0003 14.9688 14.0003 13.9709 14.0003 13.9709C14.0003 13.9709 13.8403 12.973 12.0003 12.973C8.84032 12.973 8.00032 10.9771 8.00032 9.97921C8.00032 8.98129 8.66032 7.46445 11.0003 7.09522V5.98752C11.0003 5.72286 11.1057 5.46903 11.2932 5.28189C11.4807 5.09474 11.7351 4.9896 12.0003 4.9896C12.2655 4.9896 12.5199 5.09474 12.7074 5.28189C12.895 5.46903 13.0003 5.72286 13.0003 5.98752V7.09522ZM17.0003 6.98544C17.1319 6.9862 17.2624 6.96103 17.3842 6.91137C17.5061 6.86171 17.6169 6.78854 17.7103 6.69605L21.0003 3.40291V4.9896C21.0003 5.25427 21.1057 5.50809 21.2932 5.69524C21.4807 5.88239 21.7351 5.98752 22.0003 5.98752C22.2655 5.98752 22.5199 5.88239 22.7074 5.69524C22.895 5.50809 23.0003 5.25427 23.0003 4.9896V0.997921C22.9987 0.867515 22.9716 0.738683 22.9203 0.618711C22.8188 0.374869 22.6247 0.181097 22.3803 0.0798336C22.2601 0.0286992 22.131 0.0015767 22.0003 0H18.0003C17.7351 0 17.4807 0.105138 17.2932 0.292284C17.1057 0.479431 17.0003 0.733256 17.0003 0.997921C17.0003 1.26259 17.1057 1.51641 17.2932 1.70356C17.4807 1.8907 17.7351 1.99584 18.0003 1.99584H19.5903L16.2903 5.279C16.1966 5.37177 16.1222 5.48214 16.0714 5.60375C16.0207 5.72535 15.9945 5.85579 15.9945 5.98752C15.9945 6.11926 16.0207 6.24969 16.0714 6.3713C16.1222 6.49291 16.1966 6.60328 16.2903 6.69605C16.3838 6.78854 16.4946 6.86171 16.6164 6.91137C16.7382 6.96103 16.8687 6.9862 17.0003 6.98544ZM23.8003 9.79958C23.7526 9.53491 23.6014 9.30002 23.3801 9.14656C23.1588 8.9931 22.8855 8.93365 22.6203 8.98129C22.3551 9.02892 22.1197 9.17975 21.9659 9.40058C21.8121 9.62142 21.7526 9.89417 21.8003 10.1588C22.1747 12.1775 21.9161 14.2623 21.0598 16.1289C20.2035 17.9955 18.7911 19.5532 17.0152 20.5895C15.2393 21.6258 13.1864 22.0903 11.1363 21.9197C9.08615 21.7491 7.13866 20.9516 5.55932 19.6361C3.97998 18.3206 2.84564 16.551 2.31097 14.5686C1.7763 12.5862 1.86732 10.4875 2.57161 8.55858C3.27591 6.62969 4.55921 4.96451 6.24654 3.79006C7.93386 2.61562 9.94311 1.98907 12.0003 1.99584C12.3035 1.98066 12.6072 1.98066 12.9103 1.99584C13.168 2.02147 13.4256 1.94634 13.6289 1.78627C13.8322 1.62621 13.9653 1.39368 14.0003 1.13763C14.0127 1.00648 13.9989 0.874185 13.9598 0.748375C13.9207 0.622565 13.857 0.50573 13.7724 0.404609C13.6878 0.303488 13.5839 0.220082 13.4669 0.159202C13.3498 0.098322 13.2218 0.0611726 13.0903 0.0498962H12.0003C9.5335 0.0498302 7.1266 0.808425 5.1073 2.2224C3.08801 3.63637 1.55446 5.63701 0.715435 7.95194C-0.12359 10.2669 -0.227315 12.7836 0.418383 15.1594C1.06408 17.5353 2.42782 19.6549 4.32394 21.2295C6.22006 22.8042 8.55641 23.7575 11.0149 23.9596C13.4734 24.1617 15.9346 23.6027 18.0633 22.3589C20.1921 21.1151 21.885 19.2468 22.9115 17.0083C23.9381 14.7699 24.2485 12.2702 23.8003 9.84948V9.79958Z"
+                        />
+                      </svg>
+                    </figure>
+                    Track daily expenses
+                  </li>
+                  <li class="feature-item">
+                    <figure>
+                      <svg
+                        width="20"
+                        height="22"
+                        viewBox="0 0 20 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.9366 10.6833V10.1665C11.9366 10.1174 11.9216 10.0722 11.8876 10.0382C11.5557 9.68365 11.2199 9.20458 10.8918 8.61613C10.5636 8.0239 10.3033 7.40903 10.126 6.78285C9.99775 6.34528 9.91477 5.85868 9.87704 5.33812C9.87327 5.24004 9.79028 5.1646 9.68844 5.1646H9.00945C8.95664 5.1646 8.91137 5.18346 8.87365 5.21741C8.84 5.25467 8.8212 5.303 8.82084 5.35321C8.82838 5.79455 8.91514 6.32642 9.07734 6.94129C9.24298 7.55945 9.47836 8.15677 9.77897 8.72175C10.0091 9.148 10.2505 9.52899 10.4994 9.85717H8.25501C8.14939 9.85717 8.06641 9.94015 8.06641 10.0458V10.6833C8.06641 10.7851 8.14939 10.8719 8.25501 10.8719H11.748C11.8537 10.8719 11.9366 10.7851 11.9366 10.6833Z"
+                        />
+                        <path
+                          d="M18.8412 21.1052H18.4191V20.8186C18.4191 20.6941 18.3357 20.596 18.2226 20.596H17.5666C17.4568 20.596 17.37 20.6941 17.37 20.8186V20.8223H15.2614V20.8186C15.2614 20.6941 15.1784 20.596 15.0649 20.596H14.4085C14.2995 20.596 14.2124 20.6941 14.2124 20.8186V20.8223H12.1037V20.8186C12.1037 20.6941 12.0204 20.596 11.9038 20.596H11.252C11.1384 20.596 11.0521 20.6941 11.0521 20.8186V20.8223H8.94719V20.8186C8.94719 20.6941 8.8642 20.596 8.74726 20.596H8.09468C7.98152 20.596 7.89476 20.6941 7.89476 20.8186V20.8223H5.78612V20.8186C5.78612 20.6941 5.70275 20.596 5.58997 20.596H4.93361C4.82384 20.596 4.73708 20.6941 4.73708 20.8186V20.8223H2.62844V20.8186C2.62844 20.6941 2.54545 20.596 2.43191 20.596H1.77631C1.66692 20.596 1.57978 20.6941 1.57978 20.8186V21.1052H1.15805C0.516409 21.1052 0 20.4942 0 19.7435V1.56167C0 0.701622 0.6639 0 1.47869 0H18.5213C19.3361 0 20 0.701622 20 1.56167V19.7435C19.9996 20.4942 19.4832 21.1052 18.8412 21.1052ZM13.4055 19.023C13.4055 19.1135 13.4998 19.1852 13.602 19.1852H15.1452C15.2542 19.1852 15.3414 19.1135 15.3414 19.023V18.7854C15.3414 18.6986 15.2546 18.6232 15.1452 18.6232H14.1226V18.0951H14.9336C15.043 18.0951 15.1298 18.0196 15.1298 17.9329V17.6952C15.1298 17.6047 15.0434 17.5368 14.9336 17.5368H14.1226V16.8163H15.1452C15.2542 16.8163 15.3414 16.7446 15.3414 16.6541V16.4202C15.3414 16.3297 15.2546 16.258 15.1452 16.258H13.602C13.4998 16.258 13.4055 16.3297 13.4055 16.4202V19.023ZM10.4221 19.023C10.4221 19.1135 10.5085 19.1852 10.6186 19.1852H11.0185C11.1015 19.1852 11.1769 19.1399 11.1992 19.0796L11.7503 17.7971V19.023C11.7503 19.1135 11.8404 19.1852 11.9498 19.1852H12.2629C12.3761 19.1852 12.4625 19.1135 12.4625 19.023V16.4202C12.4625 16.3297 12.3761 16.258 12.2629 16.258H11.8706C11.7876 16.258 11.708 16.2995 11.6862 16.3674L11.1313 17.6537V16.4202C11.1313 16.3297 11.0445 16.258 10.9351 16.258H10.6183C10.5085 16.258 10.4217 16.3297 10.4217 16.4202L10.4221 19.023ZM7.63108 19.023C7.63108 19.1135 7.72124 19.1852 7.83063 19.1852H8.14372C8.25688 19.1852 8.34327 19.1135 8.34327 19.023V17.1332C8.34327 16.8163 8.44172 16.7937 8.60355 16.7937C8.74689 16.7937 8.86382 16.8201 8.86382 17.1332V19.023C8.86382 19.1135 8.94681 19.1852 9.05998 19.1852H9.37684C9.48661 19.1852 9.57337 19.1135 9.57337 19.023V17.0539C9.57337 16.556 9.17729 16.2241 8.60392 16.2241C8.02301 16.2241 7.63108 16.5522 7.63108 17.0426V19.023ZM4.65824 17.367C4.65824 17.4538 4.74877 17.5255 4.85439 17.5255H5.17541C5.28103 17.5255 5.37193 17.4538 5.37193 17.367V17.0992C5.37193 17.0087 5.39457 16.7937 5.64353 16.7937C5.88834 16.7937 5.90004 17.0766 5.90004 17.1369V19.023C5.90004 19.1135 5.98642 19.1852 6.09657 19.1852H6.41343C6.52244 19.1852 6.60958 19.1135 6.60958 19.023V17.1143C6.60958 16.4994 6.09694 16.2241 5.62165 16.2241C5.14221 16.2241 4.65937 16.4994 4.65937 17.1218V17.367H4.65824ZM19.2716 1.56167C19.2716 1.10147 18.9355 0.728027 18.5209 0.728027H1.47831C1.06337 0.728027 0.72765 1.10147 0.72765 1.56167V14.0739H19.2716V1.56167ZM18.4191 21.2939V21.1052H1.58016V21.2939C1.58016 21.4183 1.66692 21.5164 1.77669 21.5164H2.43267C2.54621 21.5164 2.6292 21.4183 2.6292 21.2939V21.2637H4.73783V21.2939C4.73783 21.4183 4.82422 21.5164 4.93436 21.5164H5.59072C5.70351 21.5164 5.78687 21.4183 5.78687 21.2939V21.2637H7.89551V21.2939C7.89551 21.4183 7.98227 21.5164 8.09544 21.5164H8.74764C8.86496 21.5164 8.94757 21.4183 8.94757 21.2939V21.2637H11.0524V21.2939C11.0524 21.4183 11.1388 21.5164 11.2524 21.5164H11.9046C12.0215 21.5164 12.1045 21.4183 12.1045 21.2939V21.2637H14.2131V21.2939C14.2131 21.4183 14.2999 21.5164 14.4093 21.5164H15.0656C15.1792 21.5164 15.2622 21.4183 15.2622 21.2939V21.2637H17.3708V21.2939C17.3708 21.4183 17.4572 21.5164 17.5673 21.5164H18.2229C18.3361 21.5164 18.4191 21.4183 18.4191 21.2939Z"
+                        />
+                      </svg>
+                    </figure>
+                    Basic monthly budget
+                  </li>
+                  <li class="feature-item">
+                    <figure>
+                      <svg
+                        width="23"
+                        height="23"
+                        viewBox="0 0 23 23"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M20.4317 23H15.2183C13.8 23 12.65 21.85 12.65 20.4317V13.4167C12.65 12.995 12.995 12.65 13.4167 12.65H20.4317C21.85 12.65 23 13.8 23 15.2183V20.4317C23 21.85 21.85 23 20.4317 23ZM14.1833 14.1833V20.4317C14.1833 21.0067 14.6433 21.4667 15.2183 21.4667H20.4317C21.0067 21.4667 21.4667 21.0067 21.4667 20.4317V15.2183C21.4667 14.6433 21.0067 14.1833 20.4317 14.1833H14.1833ZM7.78167 23H2.56833C1.15 23 0 21.85 0 20.4317V15.2183C0 13.8 1.15 12.65 2.56833 12.65H9.58333C10.005 12.65 10.35 12.995 10.35 13.4167V20.4317C10.35 21.85 9.2 23 7.78167 23ZM2.56833 14.1833C1.99333 14.1833 1.53333 14.6433 1.53333 15.2183V20.4317C1.53333 21.0067 1.99333 21.4667 2.56833 21.4667H7.78167C8.35667 21.4667 8.81667 21.0067 8.81667 20.4317V14.1833H2.56833ZM20.4317 10.35H13.4167C12.995 10.35 12.65 10.005 12.65 9.58333V2.56833C12.65 1.15 13.8 0 15.2183 0H20.4317C21.85 0 23 1.15 23 2.56833V7.78167C23 9.2 21.85 10.35 20.4317 10.35ZM14.1833 8.81667H20.4317C21.0067 8.81667 21.4667 8.35667 21.4667 7.78167V2.56833C21.4667 1.99333 21.0067 1.53333 20.4317 1.53333H15.2183C14.6433 1.53333 14.1833 1.99333 14.1833 2.56833V8.81667ZM9.58333 10.35H2.56833C1.15 10.35 0 9.2 0 7.78167V2.56833C0 1.15 1.15 0 2.56833 0H7.78167C9.2 0 10.35 1.15 10.35 2.56833V9.58333C10.35 10.005 10.005 10.35 9.58333 10.35ZM2.56833 1.53333C1.99333 1.53333 1.53333 1.99333 1.53333 2.56833V7.78167C1.53333 8.35667 1.99333 8.81667 2.56833 8.81667H8.81667V2.56833C8.81667 1.99333 8.35667 1.53333 7.78167 1.53333H2.56833Z"
+                        />
+                      </svg>
+                    </figure>
+                    Add unlimited categories
+                  </li>
+                  <li class="feature-item">
+                    <figure>
+                      <svg
+                        width="22"
+                        height="22"
+                        viewBox="0 0 22 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M21.9906 19.1872C21.9298 18.4992 21.6047 17.876 21.0759 17.4331L15.5169 12.7641C16.3039 11.4878 16.7587 9.98569 16.7587 8.37933C16.759 7.68611 16.6732 6.99554 16.5032 6.32349L17.8592 4.96752C18.1192 5.09222 18.404 5.15681 18.6924 5.1565C19.7586 5.1565 20.6261 4.28906 20.6261 3.22279C20.6261 2.15652 19.7586 1.28911 18.6924 1.28911C17.6262 1.28911 16.7587 2.15656 16.7587 3.22283C16.7584 3.51121 16.823 3.79596 16.9477 4.05598L16.0333 4.9704C14.7248 2.04423 11.7865 0 8.37933 0C3.75897 0 0 3.75897 0 8.37937C0 12.9998 3.75897 16.7587 8.37937 16.7587C9.98574 16.7587 11.4878 16.304 12.7642 15.517L17.4354 21.0787C17.5343 21.1951 17.6446 21.3052 17.7545 21.3973C18.2243 21.7907 18.8049 22.001 19.4104 22.001C19.4874 22.001 19.5649 21.9976 19.6425 21.9907C20.3305 21.9299 20.9537 21.6048 21.3972 21.0753C21.8407 20.5458 22.0514 19.8752 21.9906 19.1872ZM18.6924 2.57827C19.0478 2.57827 19.337 2.86742 19.337 3.22283C19.337 3.57824 19.0478 3.86739 18.6924 3.86739C18.337 3.86739 18.0479 3.57824 18.0479 3.22283C18.0479 2.86742 18.337 2.57827 18.6924 2.57827ZM8.37933 15.4782C4.46979 15.4782 1.28052 12.2975 1.28052 8.38797C1.28052 4.47843 4.46979 1.28052 8.37933 1.28052C11.4395 1.28052 14.0529 3.23791 15.0441 5.95953L13.0799 7.92376C12.8274 7.80271 12.5449 7.73477 12.2467 7.73477C11.9485 7.73477 11.666 7.80271 11.4136 7.92376L10.1241 6.63426C10.2488 6.37422 10.3134 6.08948 10.313 5.8011C10.313 4.73487 9.4456 3.86739 8.37933 3.86739C7.31306 3.86739 6.44562 4.73483 6.44562 5.8011C6.4453 6.08948 6.50989 6.37423 6.6346 6.63426L5.34514 7.92376C5.0851 7.79905 4.80034 7.73446 4.51194 7.73477C3.44572 7.73477 2.57823 8.60222 2.57823 9.66849C2.57823 10.7347 3.44567 11.6022 4.51194 11.6022C5.57817 11.6022 6.44566 10.7348 6.44566 9.66849C6.44597 9.38011 6.38138 9.09536 6.25667 8.83533L7.54613 7.54583C7.79863 7.66688 8.08116 7.73482 8.37933 7.73482C8.6775 7.73482 8.96003 7.66688 9.21248 7.54583L10.5019 8.83533C10.3773 9.09536 10.3127 9.38011 10.313 9.66849C10.313 10.7347 11.1804 11.6022 12.2467 11.6022C13.313 11.6022 14.1804 10.7348 14.1804 9.66849C14.1807 9.38011 14.1162 9.09536 13.9914 8.83533L15.4047 7.42208C15.4478 7.73935 15.4695 8.05918 15.4695 8.37937C15.4696 12.2889 12.2889 15.4782 8.37933 15.4782ZM12.8913 9.66849C12.8913 10.0239 12.6022 10.313 12.2468 10.313C11.8914 10.313 11.6022 10.0239 11.6022 9.66849C11.6022 9.31308 11.8914 9.02393 12.2468 9.02393C12.6022 9.02393 12.8913 9.31308 12.8913 9.66849ZM9.02389 5.8011C9.02389 6.15651 8.73474 6.44566 8.37933 6.44566C8.02392 6.44566 7.73477 6.15651 7.73477 5.8011C7.73477 5.44569 8.02392 5.15654 8.37933 5.15654C8.73474 5.15654 9.02389 5.44569 9.02389 5.8011ZM5.1565 9.66849C5.1565 10.0239 4.86735 10.313 4.51194 10.313C4.15653 10.313 3.86739 10.0239 3.86739 9.66849C3.86739 9.31308 4.15653 9.02393 4.51194 9.02393C4.86735 9.02393 5.1565 9.31308 5.1565 9.66849ZM14.6369 15.7423L13.8087 14.7563C14.1491 14.466 14.466 14.1492 14.7562 13.8088L15.7423 14.6369C15.404 15.0344 15.0344 15.4041 14.6369 15.7423ZM20.4089 20.2475C20.1865 20.513 19.874 20.676 19.529 20.7065C19.1838 20.7369 18.8478 20.6313 18.5822 20.4088C18.5287 20.3641 18.4689 20.304 18.4202 20.2467L15.4665 16.73C15.9211 16.3436 16.3436 15.9211 16.73 15.4665L20.2474 18.4208C20.5129 18.6431 20.6759 18.9556 20.7064 19.3006C20.737 19.6457 20.6313 19.9819 20.4089 20.2475Z"
+                        />
+                      </svg>
+                    </figure>
+                    Simple analytics
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-primary">Go Premium</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- slider-sec -->
+      <section class="testimonial-sec" id="testimonials">
+        <div class="container">
+          <div class="section-content">
+            <p class="section-badge test-badge"data-aos="fade-down" data-aos-duration="1500">Testimonials</p>
+            <h2 class="sec-heading test-head"data-aos="fade-down" data-aos-duration="1500">What our users say</h2>
+            <p class="sec-description test-desc"data-aos="fade-down" data-aos-duration="1500">
+              Users love our app for tracking expenses, saving smarter, and
+              enjoying secure tools, personalized insights, and rewarding
+              financial management
+            </p>
+          </div>
+          <div class="swiper testimonialSwiper">
+            <div class="swiper-wrapper">
+              <!-- Slide 1 -->
+              <div class="swiper-slide testimonial-card">
+                <div class="info">
+                  <div class="profile">
+                    <img src="./assets/slider/dp-1.png" alt="" />
+                  </div>
+                  <div>
+                    <h3 class="name">Rohit Mishra</h3>
+                    <p class="location">— Mumbai, India</p>
+                  </div>
+                </div>
+
+                <div class="stars">
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-2.png" alt="" />
+                  </div>
+                </div>
+
+                <p class="slider-para">
+                  “Managing my monthly budget has never been simple. The
+                  dashboard gives me instant clarity on where my money is
+                  going.”
+                </p>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="swiper-slide testimonial-card">
+                <div class="info">
+                  <div class="profile">
+                    <img src="./assets/slider/dp-2.png" alt="" />
+                  </div>
+                  <div>
+                    <h3 class="name">Daniel Collins</h3>
+                    <p class="location">— Berlin, Germany</p>
+                  </div>
+                </div>
+
+                <div class="stars">
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-2.png" alt="" />
+                  </div>
+                </div>
+
+                <p class="slider-para">
+                  “This tool helped me cut unnecessary expenses and save more
+                  every month. The charts are super easy to understand.”
+                </p>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="swiper-slide testimonial-card">
+                <div class="info">
+                  <div class="profile">
+                    <img src="./assets/slider/dp-3.png" alt="" />
+                  </div>
+                  <div>
+                    <h3 class="name">Aditi Ghosh</h3>
+                    <p class="location">— Kolkata, India</p>
+                  </div>
+                </div>
+
+                <div class="stars">
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-2.png" alt="" />
+                  </div>
+                </div>
+
+                <p class="slider-para">
+                  “As a student, budgeting used to be stressful. This planner
+                  made it effortless and even fun to track every rupee.”
+                </p>
+              </div>
+              <!-- Slide 4 -->
+              <div class="swiper-slide testimonial-card">
+                <div class="info">
+                  <div class="profile">
+                    <img src="./assets/slider/dp-1.png" alt="" />
+                  </div>
+                  <div>
+                    <h3 class="name">Rohit Mishra</h3>
+                    <p class="location">— Mumbai, India</p>
+                  </div>
+                </div>
+
+                <div class="stars">
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-2.png" alt="" />
+                  </div>
+                </div>
+
+                <p class="slider-para">
+                  “Managing my monthly budget has never been simple. The
+                  dashboard gives me instant clarity on where my money is
+                  going.”
+                </p>
+              </div>
+              <!-- slide-5 -->
+              <div class="swiper-slide testimonial-card">
+                <div class="info">
+                  <div class="profile">
+                    <img src="./assets/slider/dp-2.png" alt="" />
+                  </div>
+                  <div>
+                    <h3 class="name">Daniel Collins</h3>
+                    <p class="location">— Berlin, Germany</p>
+                  </div>
+                </div>
+                <div class="stars">
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-1.png" alt="" />
+                  </div>
+                  <div class="star">
+                    <img src="./assets/slider/star-2.png" alt="" />
+                  </div>
+                </div>
+
+                <p class="slider-para">
+                  “This tool helped me cut unnecessary expenses and save more
+                  every month. The charts are super easy to understand.”
+                </p>
+              </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- faq sec -->
+      <section class="accordian-sec">
+        <div class="radial-blur"></div>
+        <div class="container">
+          <div class="section-content">
+            <div class="accordian-content">
+              <p class="section-badge"data-aos="fade-down" data-aos-duration="1500"data-aos-duration="1500">Frequently Asked Questions</p>
+              <h2 class="sec-heading"data-aos="fade-down-right"data-aos-duration="1500">
+                Everything You Need to Know About Fin Pocket
+              </h2>
+              <p class="sec-description"data-aos="fade-down-right"data-aos-duration="1500">
+                Find quick answers to common questions about your budget
+                planning, expenses and more.
+              </p>
+            </div>
+            <div class="section-btn">
+              <a href="faq.html" class="btn btn-primary"data-aos="fade-down-left"data-aos-duration="1500">Explore More</a>
+            </div>
+          </div>
+          <div class="row accordian-row">
+            <div class="col col-6"data-aos="fade-down-right"data-aos-duration="1500">
+              <div class="accordian-img" id="accordionImage">
+                <img
+                  src="./assets/Accordian/accordian.png"
+                  alt="A guy using fin pocket on his laptop"
+                />
+              </div>
+            </div>
+
+            <div class="col col-6"data-aos="fade-down-left"data-aos-duration="1500">
+              <div class="accordion-wrapper" id="accordionWrapper">
+                <div class="accordion-item">
+                  <div class="accordion-header">
+                    <span>How do I sign up for an account?</span>
+                    <span class="icon">+</span>
+                  </div>
+                  <div class="accordion-body">
+                    Signing up is easy, just download the app, click on “Get
+                    started”, and follow the prompts. You can use your email
+                    address, Google, or Facebook to create an account.
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-header">
+                    <span>Can I get access the app from multiple devices?</span>
+                    <span class="icon">+</span>
+                  </div>
+                  <div class="accordion-body">
+                    Yes, you can log in from multiple devices using the same
+                    account.
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-header">
+                    <span>How can I download the application?</span>
+                    <span class="icon">+</span>
+                  </div>
+                  <div class="accordion-body">
+                    The application is available on Play Store and App Store.
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-header">
+                    <span>Can I track cash transactions?</span>
+                    <span class="icon">+</span>
+                  </div>
+                  <div class="accordion-body">
+                    Yes, cash transactions can be tracked easily.
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-header">
+                    <span>Can I customize expense categories?</span>
+                    <span class="icon">+</span>
+                  </div>
+                  <div class="accordion-body">
+                    You can create and manage your own categories.
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-header">
+                    <span>Is my financial data secure?</span>
+                    <span class="icon">+</span>
+                  </div>
+                  <div class="accordion-body">
+                    Your data is encrypted and completely secure.
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-header">
+                    <span>Can I create weekly or yearly budgets?</span>
+                    <span class="icon">+</span>
+                  </div>
+                  <div class="accordion-body">
+                    Yes, budgets can be created weekly, monthly, or yearly.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Download-section -->
+      <section class="download-sec">
+        <div class="container">
+          <div class="row">
+            <div class="col col-9">
+              <div class="download-btn">
+                <p class="section-badge">Download Our App</p>
+              </div>
+              <div class="dowload-cntn">
+                <h4>"Save First Spend later,Stress never."</h4>
+              </div>
+              <div class="download-para">
+                <p>
+                  Smart money management empowers you to track expenses, save
+                  wisely invest effectively, and achieve financial freedom.
+                </p>
+              </div>
+              <div class="download-img">
+                <div class="left-download">
+                  <a href="">
+                    <img src="./assets/download/google-play 1.png" alt=""
+                  /></a>
+                </div>
+                <div class="right-download">
+                  <a href="">
+                    <img src="./assets/download/app-store 1.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-3">
+              <div class="mobile-img">
+                <img
+                  src="./assets/download/asdfasiPhone-15-Pro-Black-Titanium-Mockup-Portrait 6.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="grid"></div>
+      <div class="container">
+        <div class="footer-top">
+          <div class="row">
+            <div class="col col-4 col-xl-3 col-lg-12 col-sm-12">
+              <div class="footer-content">
+                <div class="footer-logo">
+                  <a href="index.html"
+                    ><img src="./assets/navbar/logo.svg" alt="Fin Pocket"
+                  /></a>
+                </div>
+                <p class="footer-text">
+                  Take Control of Your Financial Journey
+                </p>
+                <form class="newsletter-form">
+                  <input type="email" placeholder="Enter your email" />
+                  <input type="submit" value="Subscribe" />
+                </form>
+              </div>
+            </div>
+
+            <div class="col col-1-5 col-xl-2 col-lg-6 col-sm-12">
+              <div class="footer-content">
+                <ul>
+                  <li class="footer-heading">Company</li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="features.html">Features</a></li>
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col col-2 col-xl-2 col-lg-6 col-sm-12">
+              <div class="footer-content">
+                <ul>
+                  <li class="footer-heading">Services</li>
+                  <li><a href="">CVP</a></li>
+                  <li><a href="">Budget planning</a></li>
+                  <li><a href="">Expense tracking</a></li>
+                  <li><a href="">Trust</a></li>
+                  <li><a href="">Profit</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col col-1-5 col-xl-2 col-lg-6 col-sm-12">
+              <div class="footer-content">
+                <ul>
+                  <li class="footer-heading">Support</li>
+                  <li><a href="#testimonials">Testimonials</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="">Notification</a></li>
+                  <li><a href="">Technical Help</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col col-3 col-xl-3 col-lg-6 col-sm-12">
+              <div class="footer-content">
+                <ul>
+                  <li class="footer-heading">Contact</li>
+                  <li>
+                    <a href="mailto:support@finpocket.com"
+                      >Email: support@finpocket.com</a
+                    >
+                  </li>
+                  <li>
+                    <a href="tel:+18004567890">Phone: +1 (800) 456-7890</a>
+                  </li>
+                  <li>
+                    <div class="socials">
+                      <a href="https://www.facebook.com/" target="_blank"
+                        ><img
+                          src="./assets/social-logo/facebook.svg"
+                          alt="facebook"
+                      /></a>
+                      <a href="https://www.twitter.com/" target="_blank"
+                        ><img
+                          src="./assets/social-logo/twitter.svg"
+                          alt="twitter"
+                      /></a>
+                      <a href="https://www.instagram.com/" target="_blank"
+                        ><img
+                          src="./assets/social-logo/instagram.svg"
+                          alt="instagram"
+                      /></a>
+                      <a href="https://www.youtube.com/" target="_blank"
+                        ><img
+                          src="./assets/social-logo/youtube.svg"
+                          alt="youtube"
+                      /></a>
+                      <a href="https://www.linkedin.com/" target="_blank"
+                        ><img
+                          src="./assets/social-logo/linkedin.svg"
+                          alt="linkedin"
+                      /></a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-left">
+            <p>© Copyright 2025. All rights reserved.</p>
+          </div>
+          <ul class="footer-bottom-right">
+            <li><a href="#">Terms & Conditions.</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="./js/navbar.js"></script>
+    <script src="./js/clients.js"></script>
+    <script src="./js/accordian.js"></script>
+    <script src="./js/goal.js"></script>
+    <script src="./js/pricing.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
